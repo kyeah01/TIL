@@ -102,7 +102,7 @@ kyeah:~/workspace $ ls s*.txt			# s로 시작하면서 확장자명이 txt인 �
 song.txt  song_reverse.txt				
 ~~~
 
-~~~python
+~~~bash
 kyeah:~/workspace $ ls -l									# long format
 total 28
 -rw-rw-r-- 1 ubuntu ubuntu 699 Aug 31  2017 README.md
@@ -132,13 +132,13 @@ kyeah:~/workspace $ mv test test_file.txt		#이름 바꾸기
 kyeah:~/workspace $ mv test test_file.txt
 kyeah:~/workspace $ cat test_file.txt 
 test test
-kyeah:~/workspace $ cp test_file.txt copy_file.txt
+kyeah:~/workspace $ cp test_file.txt copy_file.txt		# 파일 복사하기
 
 kyeah:~/workspace $ rm copy_file.txt 
 kyeah:~/workspace $ rm -i test_file.txt                              
 rm: remove regular file ‘test_file.txt’? y		# y나 Y만 답으로 인식
 
-kyeah:~/workspace $ rm -f song.txt 				# force의 약자
+kyeah:~/workspace $ rm -f song.txt 				# force의 약자(절차무시, 강제)
 ~~~
 
 ~~~bash
@@ -174,6 +174,5 @@ kyeah:~/workspace $ wc sonnets_head.txt
  10  46 294 sonnets_head.txt
 kyeah:~/workspace $ head sonnets.txt | wc	# 좌측의 출력을 오른쪽의 입력으로 보냄
      10      46     294
-kyeah:~/workspace $ 
 ~~~
 
