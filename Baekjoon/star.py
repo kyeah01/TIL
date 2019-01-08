@@ -1,10 +1,13 @@
+def star(n):
+    T = '*'
+    M = '*  *'
+    B = '*****'
+    return T,M,B
 
-# if (N//3)
-for i in 
-for j jn range(1,4):
-    print("  "*(j-1),"  *  "*j,"  "*(j-1), end = "")
-    print()
-    print("  "*(j-1)," * * "*j,"  "*(j-1), end = "")
-    print()
-    print("  "*(j-1),"*****"*j,"  "*(j-1), end = "")
-    print()
+
+P1 = T.center(1,' ')
+P2 = M.center(1,' ')
+P3 = B.center(1,' ')
+print(P1)
+print(P2)
+print(P3)
