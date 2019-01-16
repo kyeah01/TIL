@@ -1,0 +1,90 @@
+<!DOCTYPE html>     <!-- == <!doctype html> 소문자도 상관없음 -->
+<html lang='ko'>
+<head>              <!-- 자식이지만 인덴테이션 안하고붙여서 쓰는게 관례 -->
+    <meta charset="UTF-8">
+    <title>Hi, there!</title>
+</head>
+<body>
+    <!-- heading -->
+    <h1>Heading 1</h1>      <!-- 헤딩태그는 자동 개행을 가짐 -->
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6>
+
+    <div>                   <!-- div는 단지 묶어주는 태그 -->
+        <!-- bold -->
+        <b>This is blod</b><br>         <!-- br은 개행태그 -->
+        <strong>This is strong(semantic)</strong>
+        <!-- 아래꺼는 시맨틱태그, 의미가 있음, 청각장애인들에게 읽어줄때 강한 어조로 읽음 -->
+    </div>
+    <div>                   <!-- div도 개행을 가짐 -->
+        <!-- Italic -->
+        <i>This is Italic</i><br>
+        <em>This is em(semantic)</em>
+        <!-- 마찬가지로 시맨틱태그, 의미가 있음 -->
+    </div>
+
+    <!-- highlighted -->
+    <h2>This is <mark>mark</mark></h2>
+    
+    <!-- del(취소선), ins(밑줄) -->
+    <h2>This is <del>del</del></h2>
+    <h2>This is <ins>ins</ins></h2>
+
+    <!-- sub(밑), super(지수) -->
+    <h2>This is <sub>sub</sub></h2>
+    <h2>This is <sup>sup</sup></h2>
+
+    <!-- p태그: 얘들도 개행값을 가짐 -->
+    <p>
+        This is p tag<br>
+        This is p tag<br>
+        This is p tag<br>
+        This is p tag<br>
+        This is p tag<br>
+        This is p tag<br>
+        This is p tag<br>
+        This is p tag<br>
+        This is p tag<br>
+        This is p tag<br>
+    </p>
+    <p>
+        안녕하세요
+    </p>
+
+    <!-- 인용문 같은거 -->
+    <pre>
+        from flask import flask
+        app = flask(__name__)
+
+        @app.route('/')
+    </pre>
+
+    <!-- 얘도 마찬가지로 닫는 태그 없음 -->
+    <hr>
+
+    <p>
+        명언은 <q>이렇게하는거야</q>
+    </p>
+
+    <!-- 시작점이 띄워져서 시작 -->
+    <blockquote>
+        Hello World!!!
+    </blockquote>
+
+    <!-- 숫자 있는 리스트, 숫자 없는 리스트 -->
+    <ol>
+        <li>first</li>
+        <li>second</li>
+        <li>third</li>
+    </ol>
+    <ul>
+        <li>first</li>
+        <li>second</li>
+        <li>third</li>
+    </ul>
+</body>
+
+</html>

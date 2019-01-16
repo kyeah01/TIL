@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <h1>FORM</h1>
+    <p>주문서를 작성하여 주십시오.</p>
+    이름:<input type="text" placeholder="이름을 입력해주세요"><br>
+    날짜:<input type="date" value="2019-01-03">
+
+    <div>
+        <h2>1. 샌드위치 선택</h2>
+        <input type="radio" name="sandwich" checked>에그 마요<br>
+        <input type="radio" name="sandwich">이탈리안 비엠티<br>
+        <input type="radio" name="sandwich">터키 베이컨 아보카도<br><br>
+        <hr>
+    </div>
+
+    <div>
+        <h2>2. 사이즈선택</h2>
+        <input type="number" max=30 min=15 step=15 value="15"><br>
+        <hr>
+    </div>
+
+    <div>
+        <h3>3. 빵</h3>
+        <select name="빵종류">
+            <option value="honey" selected>허니오트</option>
+            <option value="flat" disabled>플랫브래드</option>
+            <option value="hotty">하티 이탈리안</option>
+        </select><br><br>
+        <hr>
+    </div>
+
+    <div>
+        <h2>4.야채/소스</h2>
+        <input type="checkbox" name="tomato" value="1">토마토<br>
+        <input type="checkbox" name="oi" value="2">오이<br>
+        <input type="checkbox" name="hala" value="3">할라피뇨<br>
+        <input type="checkbox" name="hot" value="4">핫 칠리<br>
+        <input type="checkbox" name="barbeque" value="5">바베큐<br>
+    </div>
+</body>
+</html>

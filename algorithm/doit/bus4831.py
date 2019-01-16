@@ -23,7 +23,7 @@ for i in range(T):
     print(f'#{i+1} {count}')
 
 
-# 존재할때마다 더하는 알고리즘을 짰으나 중복을 제거할 수 없었다.
+# 존재할때마다 감하는 알고리즘을 짰으나 중복을 제거할 수 없었다.
 # for x in range(len(busstop)-1):
 #         if busstop[x] + K < busstop[x+1]:
 #             ans = 0
