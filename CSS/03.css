@@ -1,0 +1,48 @@
+p, h3 {
+    color : darkgray;
+}
+
+.black_bg, .white {
+    color : white;
+    background-color: black;
+}
+
+div {
+    width: 100px;
+    height : 100px;
+    border: 1px solid black;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.red + .blue + div{
+    background-color: purple;
+}
+
+/* h1에 붙어있는 p를 바꾸는 것 */
+h1 + p {
+    color : darkgreen;
+}
+
+ol > li {
+    color: coral;
+}
+
+ol#chocolate {
+    color : chocolate;
+}
+
+/* 띄어쓰기하면 내의 모든 것을 해당하게하는것 */
+ul li {
+    color : lime;
+}
+
+ul li:nth-of-type(2) {
+    color:black;
+}

@@ -1,0 +1,53 @@
+.square {
+    width: 100px;
+    height : 100px;
+    background-color: darkgray;
+}
+
+.padding-10 {
+    padding:10px;
+}
+.border-10 {
+    box-sizing: border-box;
+}
+
+.margin-50 {
+    margin: 50px
+/* 네개이면 top right bottom left */
+/* 세개면 top 좌우 bottom */
+/* 두개면 위아래 좌우 */
+/* 하나면 전부다 해당 */
+/* margin: auto는 반반 나눠준다는 뜻 */
+}
+
+.margin-top-100 {
+    margin-top :100;
+}
+
+.margin-3 {
+    margin : 10px, 20px, 30px
+}
+
+.border {
+    border: 1px black dashed;
+    border-style: dashed;
+    border-bottom-style: double;
+    border-top-style: solid;
+    border-left-style:inset;
+    border-bottom-color: aqua;
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    border-radius: 50%
+}
+
+.rugby {
+    width: 200px;
+    height: 200px;
+    background-color: chocolate;
+    border-radius: 30px 75%;
+    opacity: 0.4;
+}

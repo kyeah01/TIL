@@ -1,0 +1,47 @@
+.square {
+    position: relative;
+    width : 100px;
+    height: 100px;
+    background-color: darkgrey;
+}
+
+.relative-box {
+    position: relative;
+    background-color: navy;
+    top: 10px;
+    left :10px;
+}
+
+.absolute-box {
+    position : absolute;
+    background-color: chocolate;
+    top:30px;
+    left:30px;
+}
+
+.fixed {
+    position: fixed;
+    background-color: coral;
+    bottom:0px;
+    left: 0px;
+    right : 20px;
+}
+
+z-index-1 {
+    background-color : brown;
+    left = 300px;
+    right = 300px;
+    z-index: 1;
+}
+z-index-2 {
+    background-color : darkgrey;
+    left = 350px;
+    right = 350px;
+    z-index: 2;
+}
+z-index-3 {
+    background-color : slateblue;
+    left = 400px;
+    right = 400px;
+    z-index: 4;
+}

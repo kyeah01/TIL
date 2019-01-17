@@ -1,0 +1,21 @@
+html {
+    font-size: 20px;
+}
+
+ol, ol li {
+    font-size : 1.2rem;
+    color: dodgerblue;
+}
+
+ul, ul li {
+    font-size : 1.2em;
+    color : rgba(209, 47, 47, 0.767);
+}
+
+.vh {
+    font-size: 5vh;
+}
+
+.vw {
+    font-size: 5vw;
+}

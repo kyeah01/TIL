@@ -1,16 +1,21 @@
 # OOP with Python
 
-- 용어정리
-
-- self = 인스턴스 객체 자기자신이다.
-
-  instance_name.method() == class_name.method(instance_name)
-
-  method는 인스턴스 객체가 함수의 첫번째 인자로 전달되도록 되어있다.
-
-  self를 통해 method에 접근하여 
 
 
+
+
+1. OOP의 정의 
+
+   OOP = Object Oriented Programming, 즉 객체지향 프로그래밍
+
+2. 인스턴스
+
+   self = 인스턴스 객체 자기자신이다.
+   instance_name.method() == class_name.method(instance_name)
+   method는 인스턴스 객체가 함수의 첫번째 인자로 전달되도록 되어있다.
+   self를 통해 method에 접근한다. self를 활용하지 않은 인자(self.inja처럼 뽑아오지 않으면!)를 땡겨온다면, 전역변수의 값을 뽑아옴.
+
+   
 
 
 
