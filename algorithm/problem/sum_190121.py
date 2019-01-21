@@ -1,13 +1,13 @@
 import sys
 sys.stdin = open("input.txt")
 
-N = int(input())
-L = []
 
-for i in range(100):
-    L.append(list(map(int,input().split())))
 
 for T in range(10):
+    N = int(input())
+    L = []
+    for i in range(100):
+        L.append(list(map(int,input().split())))
     maxJ = 0
     maxI = 0
     maxD = 0
