@@ -59,4 +59,4 @@ with open('movie.csv', 'w', encoding='utf-8', newline='') as f:
                 imsi.update({fieldname : movie_inform[fieldname]})
         writer.writerow({lists:imsi[lists] for lists in imsi})                  # 마지막으로 프린트
 
-3. 문제 3번
+# 3. 문제 3번
