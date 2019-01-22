@@ -1,8 +1,6 @@
 import sys
 sys.stdin = open("input.txt")
 
-
-
 for T in range(10):
     N = int(input())
     L = []
