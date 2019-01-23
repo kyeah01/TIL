@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+        crossorigin="anonymous">
+    <style>
+        body {
+            height : 100000px;
+        }
+        .square {
+            width : 200px;
+            height : 200px;
+            background-color:pink;
+            border : 1px solid black
+        }
+    </style>
+</head>
+
+<body>
+    <div class ="container">
+        <div class="row">
+            <!-- 기본적으로  수평의 grid는 총 12칸으로 구성되어있다. -->
+            <div class="square col-1">01</div>
+            <div class="square col-1">02</div>
+            <div class="square col-1">03</div>
+        </div>
+        <div class="row">
+            <div class="square col-3">01</div>
+            <div class="square col-3">02</div>
+            <div class="square col-3">03</div>
+            <div class="square col-3">04</div>
+        </div>
+        <div class="row">
+            <div class="square col-4">01</div>
+            <div class="square col-8">02</div>
+        </div>
+        <div class="row">
+            <!-- offset은 공백을 뜻함, 보면 앞쪽으로 공백을 5차지하고 01div가 나타난다. -->
+            <div class="square col-4 offset-5">01</div>
+        </div>
+        <div class="row">
+            <!-- 픽셀이 미들사이즈이상이면 3을 차지하게, 그것보다 작으면 6을 차지하게 한다 -->
+            <div class="square col-md-3 col-6">01</div>
+            <div class="square col-md-3 col-6">02</div>
+            <div class="square col-md-3 col-6">03</div>
+            <div class="square col-md-3 col-6">04</div>
+        </div>
+        <!-- 총 12개 div를 조작 extra small일때 1개, small일때 2개 medium일때 3개, large일때 4개 xl일때 6개-->
+        <div class="row">
+            <div class="square col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">01</div>
+            <div class="square col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">02</div>
+            <div class="square col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">03</div>
+            <div class="square col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">04</div>
+            <div class="square col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">05</div>
+            <div class="square col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">06</div>
+            <div class="square col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">07</div>
+            <div class="square col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">08</div>
+            <div class="square col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">09</div>
+            <div class="square col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">10</div>
+            <div class="square col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">11</div>
+            <div class="square col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">12</div>
+        </div>
+
+        
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -10,6 +10,8 @@
 
    html과 css는 별개의 언어다.
 
+   기본적으로 가장 마지막에 선언된것이 적용된다.
+
    
 
 2. ## 선택자(selector)
@@ -52,7 +54,29 @@
 
 3. ## Box model
 
+   html의 모든 모양은 박스모델이다. 
+   따라서 html을 꾸며주는 기본적으로 css도 박스모양을 가진다.
+
+   ![css ë°ì¤ëª¨ë¸ì ëí ì´ë¯¸ì§ ê²ìê²°ê³¼](https://s3.amazonaws.com/viking_education/web_development/web_app_eng/css_box_model_chrome.png)
+
+   1) Margin : 테두리 바깥의 외부 여백, 배경색을 지정할 수 없다.
+
+   2) Border : 테두리영역(보더에 픽셀값을 주지 않아도 알아서 보더는 할당되는 순간 자체적으로 픽셀값을 가진다. 그래서 해당 div나 p가 할당해 준 픽셀값보다 더 차지하는 경우가 생긴다.)
+
+   3) padding : 테두리 안쪽의 내부 여백, 요소에 적용된 배경의 컬러, 이미지는 패딩까지 적용.
+
+   4) contents : 실제 내용이 위치
+
    
+
+4. ## Display
+
+   1) block : 항상 새로운 라인에서 시작한다. 화면 크기 전체의 가로폭을 차지한다(width : 100%). block레벨 요소 내에 inline 레벨 요소를 포함할 수 있다. (div, h1~h6, p, ol, ul, li, hr, table, form ...)
+   2) inline : 새로운 라인에서 시작하지 않으며 문장의 중간에 들어갈 수 있다. cotent의 너비만큼 가로폭을 차지한다.  width, heght, margin(top, bottom) 프로퍼티를 지정할 수 없다. 상, 하 여백은 line-height로 지정한다. (span, a, strong, )
+   3) inline-block : block에서의 width, heght, margin(top, bottom) 속성을 모두 지정할 수 있다.
+   4) none
+
+5. ## Visibility Property
 
    
 
@@ -61,10 +85,6 @@
 ​    달라지는 점이 무엇일까라고 했을때, tag를 통해서 여기는 강조, 혹은 볼드체라는 것을 명시! 
 
 ​    따라서 단순 볼드체를 하기 위해서 strong 태그를 남발하는 경우에는 브라우저가 모든 볼드체를 강조하게 된다.
-
-
-
-같은 클래스일때는 css에서 가장 마지막에 선언된게 해당된다
 
 모든 html은 박스모델이라고 생각하면 됨.
 
