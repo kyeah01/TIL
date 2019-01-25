@@ -10,6 +10,7 @@
 - 2019.01.21(월) : attribute error
 - 2019.01.22(화) : call by object
 - 2019.01.23(수) : Bootstrap basic
+- 2019.01.24(목) : Responsive Web
 - 
 
 ## python
@@ -24,8 +25,14 @@
 2. 2차원 이상의 다차원 배열 다루기
    2차원 배열, 부분집합의 합, 검색(순차검색, 이진검색, 인덱스, 셀렉션 알고리즘, 선택정렬)
 
+## Project
+
+- 2019.01.18 - API Webcrawling.
+  json기반의 영화진흥원 API 크롤링, naver 영화 API 크롤링
+- 2019.01.25 - 
+
 ## Problems
+
 - 
 
-## git
-- 
+## CSS 요약 / HTML 요약 / Bootstrap 요약

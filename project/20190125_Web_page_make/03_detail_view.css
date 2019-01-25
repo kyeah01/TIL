@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Black+Han+Sans|Nanum+Gothic+Coding|Nanum+Myeongjo|Noto+Serif+KR&subset=korean');
+
+.header {
+    height : 350px;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url(header01.jpg);
+    background-position: center;
+}
+.header:hover {
+    background-image: url(header01.jpg);
+    background-position: center;
+}
+.text-line {
+    width: 360px;
+    font-family: 'Noto Serif KR', serif;
+}
+.fixed-bottom {
+    height: 50px;
+}
+.navbar {
+    font-family: 'Nanum Gothic Coding', monospace;
+}
+.name {
+    font-family: 'Nanum Gothic Coding', monospace;
+}
+.subtitle {
+    font-family: 'Nanum Gothic Coding', monospace;
+}
