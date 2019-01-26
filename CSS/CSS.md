@@ -12,11 +12,9 @@
 
    기본적으로 가장 마지막에 선언된것이 적용된다.
 
-   
-
 2. ## 선택자(selector)
 
-   ![css_selector_discription](C:\Users\student\Desktop\git\TIL\CSS\css_selector_discription.png)
+   ![css_selector_discription](css_selector_discription.png)
    특정요소들을 선택하여 스타일을 적용할 수 있게 해주는 것.
 
    이러한 선택자들을 활용하여 스타일적용하기 위해 html에서 의미없지만 구분하는 코드들을 짜게 된다. 예를 들어 div와 span같은 경우.
@@ -34,10 +32,10 @@
 
    1. 키워드
    2. 크기단위 - px (절대단위에 가까움), 
-             % (상속된 경우 부모에 대한 상대크기),
-             em(배수단위로 상대단위, 
-             요소에 지정된 사이즈에 대한 상대적 사이즈)
-             rem(최상위요소 html에 대한 상대적 사이즈)
+         ​    % (상속된 경우 부모에 대한 상대크기),
+         ​    em(배수단위로 상대단위, 
+         ​    요소에 지정된 사이즈에 대한 상대적 사이즈)
+         ​    rem(최상위요소 html에 대한 상대적 사이즈)
             Viewport 단위(화면크기에 비례한 사이즈)
    3. 색상 - HEX, RGB, RGBA(A는 투명도)
 
@@ -67,8 +65,6 @@
 
    4) contents : 실제 내용이 위치
 
-   
-
 4. ## Display
 
    1) block : 항상 새로운 라인에서 시작한다. 화면 크기 전체의 가로폭을 차지한다(width : 100%). block레벨 요소 내에 inline 레벨 요소를 포함할 수 있다. (div, h1~h6, p, ol, ul, li, hr, table, form ...)
@@ -78,7 +74,6 @@
 
 5. ## Visibility Property
 
-   
 
 
 
