@@ -4,10 +4,12 @@
     height : 350px;
     background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url(header01.jpg);
     background-position: center;
+    /* background-blend-mode: screen; */
 }
 .header:hover {
     background-image: url(header01.jpg);
     background-position: center;
+    /* background-blend-mode: unset; */
 }
 .text-line {
     width: 360px;
@@ -24,4 +26,7 @@
 }
 .subtitle {
     font-family: 'Nanum Gothic Coding', monospace;
+}
+.card-img-top {
+    cursor : url('path-to-image.png'), auto;
 }
