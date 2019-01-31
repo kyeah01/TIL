@@ -6,67 +6,61 @@ flask에서 python기반으로 데이터 주고받기
 
 
 
-
-
-
-
-
-
 # database SQL 기초
 
-database이전에는 file개념. file보다 안전하고 편리하고 빠르게 자료를 보관하기 위해 용한다.
+- File보다 안전하고 편리하고 빠르게 자료를 보관하기 위해 이용한다.
 
-SQLite를 사용할 예정.
-
-C9에는 자동내장되어있음
+- SQLite를 사용할 예정, C9에는 자동내장되어있음
 
 ## 기본 용어 정리
 
-### 스키마
+### 1. 스키마
 
-|colume | datatype |
+| colume | datatype |
+| ------ | -------- |
+|        |          |
 
-데이터 베이스의 구조와 제약조건에 관련된 전반적인 명세를 기술한 것
+- 데이터 베이스의 구조와 제약조건에 관련된 전반적인 명세를 기술한 것.
 
-PK(기본키) : primary key, 각 행, 레코드의 고유값으로 반드시 설정하여야 하며 데이터 베이스 관리 매치 관계 설정시 유용하게 사용, 절대 겹치면 안된다.
+- PK(기본키) : Primary Key. 각 행, 레코드의 고유값으로 반드시 설정하여야 하며 데이터 베이스 관리 매치 관계 설정시 유용하게 사용된다. 절대 겹치면 안된다.
 
-1. #### SQL개념
+### 2. SQL개념
 
-   1. DDL :데이터를 정의하기 위한 언어(테이블, 스키마)
-   2. DML : 데이터를 저장, 수정, 삭제, 조회등을 하기 위한 언어.
-   3. DCL : 데이터 베이스 사용자의 권한제어를 위해 사용되는 언어
+1. DDL :데이터를 정의하기 위한 언어(테이블, 스키마)
+2. DML : 데이터를 저장, 수정, 삭제, 조회등을 하기 위한 언어.
+3. DCL : 데이터 베이스 사용자의 권한제어를 위해 사용되는 언어
 
-2. #### Hello SQL : table만들기
+### 3. Hello SQL : table만들기
 
-   sqlinte3
+sqlinte3
 
-   mode변경을 위해
+mode변경을 위해
 
-   .mode csv
+.mode csv
 
-   kyeah:~/workspace $ sqlite3
-   SQLite version 3.8.2 2013-12-06 14:53:30
-   Enter ".help" for instructions
-   Enter SQL statements terminated with a ";"
-   sqlite> .mode csv
-   sqlite> .import hellodb.csv examples
-   sqlite> .tables
-   examples
-   sqlite> SELECT * FROM example;                                                                   
-   Error: no such table: example
-   sqlite> SELECT * FROM examples;
-   1,"길동","홍",600,"충청도",010-2424-1232
-   sqlite> .headers on
-   sqlite> .mode column
-   sqlite> SELECT * FROM examples;                                                                  
-   id          first_name  last_name   age         country     phone        
-   ----------  ----------  ----------  ----------  ----------  -------------
-   1           길동      홍         600         충청도   010-2424-1232
-   sqlite> .exit()
-   Error: unknown command or invalid arguments:  "exit()". Enter ".help" for help
-   sqlite> .exit
+kyeah:~/workspace $ sqlite3
+SQLite version 3.8.2 2013-12-06 14:53:30
+Enter ".help" for instructions
+Enter SQL statements terminated with a ";"
+sqlite> .mode csv
+sqlite> .import hellodb.csv examples
+sqlite> .tables
+examples
+sqlite> SELECT * FROM example;                                                                   
+Error: no such table: example
+sqlite> SELECT * FROM examples;
+1,"길동","홍",600,"충청도",010-2424-1232
+sqlite> .headers on
+sqlite> .mode column
+sqlite> SELECT * FROM examples;                                                                  
+id          first_name  last_name   age         country     phone        
+----------  ----------  ----------  ----------  ----------  -------------
+1           길동      홍         600         충청도   010-2424-1232
+sqlite> .exit()
+Error: unknown command or invalid arguments:  "exit()". Enter ".help" for help
+sqlite> .exit
 
-3. Database만들기
+1. Database만들기
 
 kyeah:~/workspace $ sqlite3 tutorial.sqlite3
 SQLite version 3.8.2 2013-12-06 14:53:30
