@@ -32,42 +32,44 @@ flask에서 python기반으로 데이터 주고받기
 
 ### 3. Hello SQL : table만들기
 
-sqlinte3
+> 시작하기 전에!
+>
+> ~~~sqlite
+> > sqlite3
+> > .headers on
+> > mode column
+> > mode csv
+> -- 모드 변경을 위해 사용
+> ~~~
 
-mode변경을 위해
+1. csv파일 import 하기
 
-.mode csv
+   ~~~sqlite
+   > .import hellodb.csv examples
+   -- hellodb.csv를 examples로 명명해서 import함
+   > .tables
+   -- 테이블 확인 명령어
+   > .exit
+   -- sql끄기
+   ~~~
 
-kyeah:~/workspace $ sqlite3
-SQLite version 3.8.2 2013-12-06 14:53:30
-Enter ".help" for instructions
-Enter SQL statements terminated with a ";"
-sqlite> .mode csv
-sqlite> .import hellodb.csv examples
-sqlite> .tables
-examples
-sqlite> SELECT * FROM example;                                                                   
-Error: no such table: example
-sqlite> SELECT * FROM examples;
-1,"길동","홍",600,"충청도",010-2424-1232
-sqlite> .headers on
-sqlite> .mode column
-sqlite> SELECT * FROM examples;                                                                  
-id          first_name  last_name   age         country     phone        
-----------  ----------  ----------  ----------  ----------  -------------
-1           길동      홍         600         충청도   010-2424-1232
-sqlite> .exit()
-Error: unknown command or invalid arguments:  "exit()". Enter ".help" for help
-sqlite> .exit
 
-1. Database만들기
 
-kyeah:~/workspace $ sqlite3 tutorial.sqlite3
+## Database 만들기
+
+### 1. database 만들기
+
+
+
+
+
+sqlite3 tutorial.sqlite3
 SQLite version 3.8.2 2013-12-06 14:53:30
 Enter ".help" for instructions
 Enter SQL statements terminated with a ";"
 sqlite> .databases
 seq  name             file
+
 ---  ---------------  ----------------------------------------------------------
 0    main             /home/ubuntu/workspace/tutorial.sqlite3
 sqlite> CREATE TABLE classmates (
@@ -86,6 +88,7 @@ sqlite> DROP TABLE classmates;
 sqlite> .tables
 sqlite> .database
 seq  name             file
+
 ---  ---------------  ----------------------------------------------------------
 0    main             /home/ubuntu/workspace/tutorial.sqlite3
 1    temp
@@ -115,7 +118,7 @@ address TEXT
 sqlite> DROP TABLE classmate
    ...> ;
 sqlite> .tables
-sqlite> .read class_table.sql
+sqlite> .read class_table.ql
 
 sqlite> .tables
 classmate
@@ -249,3 +252,35 @@ id          name        age         address
 2           신채원   15          서울    
 4           박성주   15          제주    
 sqlite> 
+
+
+
+
+
+sqlite> SELECT age FROM classmate
+   ...> ;
+age       
+----------
+43        
+15        
+15        
+sqlite> SELECT DISTINCT age FROM classmate;
+
+age       
+----------
+43        
+15        
+
+중복값 제거하고 조회
+
+
+
+DROP TABLE users;
+
+SELECT COUNT(*) FROM users;
+
+SELECT AVG(age) FROM users WHERE age >= 30;
+
+SELECT first_name, MAX(balance) FROM users;
+
+LIKE는 정확한 값이 아니라 패턴을 반환함.
