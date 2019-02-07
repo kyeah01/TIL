@@ -72,6 +72,68 @@ flask에서 python기반으로 데이터 주고받기
 
 
 
+## JINJA를 통한 TEMPLATE 상속
+
+- jinja를 사용해 template도 상속해서 쓸 수 있다.
+
+- base가 되는 template 생성. 별다른 특이점 없이 생성한다.
+
+- 자식 템플릿에서 extend 명령어를 통해 상속받는다.
+
+  ~~~python
+  {% extends "base.html" %}
+  ~~~
+
+
+- base template에서 원하는 부분을 수정하기 위해 block을 선언할 수 있음. 파생 template이 변경할 수 있는 부분(항목)을 정의함.
+
+  ~~~html
+  {% block head %} {% endblock %}
+  {% block head %} {% endblock head %}
+  <!-- 와 같이도 쓸 수 있으나, 권장하지 않는다. 완전히 알아보기 어려울때만 사용할 것.-->
+  ~~~
+
+- 부모템플릿에서 선언한 것과 똑같이 선언해서 자식템플릿에서 호출한다. block선언부가 대체된다고 생각하면 된다.
+
+  ~~~html
+  {% block head %} {% endblock %}
+  ~~~
+
+- 대체되는게 아니라 부모의 블락내 내용을 그대로 받아오고, 그 뒤에 add하고싶다면 block선언부 내에 super를 선언해서 해결할 수 있다.
+
+  ~~~html
+  {{ super() }}
+  ~~~
+
+  
+
+
+
+
+
+
+
+
+
+<link rel="icon" href="{{url_for('static', filename='favicon.png')}}" type="image/png"/>
+
+templates처럼 static에서 들고와야함.
+
+
+
+CRUD 정리할것.
+
+
+
+redirect, url_for 쓰는 법 배울 것.
+
+```python
+url_for('index')
+return redirect(url_for('index'))
+```
+
+
+
 
 
 
@@ -79,6 +141,8 @@ flask에서 python기반으로 데이터 주고받기
 
 
 ##### Reference
+
+https://www.python.org/dev/peps/pep-0333/#the-application-framework-side
 
 https://pythonhow.com/how-a-flask-app-works/
 
