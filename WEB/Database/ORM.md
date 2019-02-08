@@ -73,6 +73,9 @@ class User(db.Model):
     email = db.Column(db.String(120), unique=True, nullable=False)
 ~~~
 
+제한 줄 수 있는 값으로는
+Integer | String | TEXT | DateTime | Float | Boolean
+
 
 
 ### 만든 테이블 생성(반영)하기
