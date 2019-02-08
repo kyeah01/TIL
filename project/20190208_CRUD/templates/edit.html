@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block body %}
+<h1>영화 정보 수정</h1>
+<form action='/movies/{{ movie.id }}/update/'>
+    <li style="list-style-type:None">title : <input type="text" name="title" value='{{ movie.title }}'/></li>
+    <li style="list-style-type:None">title_en : <input type="text" name="title_en" value= '{{ movie.title_en }}'/></li>
+    <li style="list-style-type:None">audience : <input type="number" name="audience" value= '{{ movie.audience }}'/></li>
+    <li style="list-style-type:None">open_date : <input type="date" name="open_date" value= '{{ movie.open_date }}'/></li>
+    <li style="list-style-type:None">genre : <input type="text" name="genre" value= '{{ movie.genre }}'/></li>
+    <li style="list-style-type:None">watch_grade : <input type="text" name="watch_grade" value= '{{ movie.watch_grade }}'/></li>
+    <li style="list-style-type:None">score : <input type="number" min=0 max=5 step=0.5 name="score" value= '{{ movie.score }}'/></li>
+    <li style="list-style-type:None">poster_url : <input type="text" name="poster_url" value= '{{ movie.poster_url }}'/></li>
+    <li style="list-style-type:None">description : <textarea rows="4" cols="50" name='description'>{{ movie.description }}</textarea></li>
+    <li style="list-style-type:None"><input type="submit" value="Submit"/></li>
+</form>
+
+{% endblock %}

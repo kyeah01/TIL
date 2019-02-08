@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block body %}
+    <h1>영화 정보 목록</h1>
+    <ul>
+        <li style="list-style-type:None">title : {{ movie.title }}</li>
+        <li style="list-style-type:None">title_en : {{ movie.title_en }}</li>
+        <li style="list-style-type:None">audience : {{ movie.audience }}</li>
+        <li style="list-style-type:None">open_date : {{ movie.open_date }}</li>
+        <li style="list-style-type:None">genre : {{ movie.genre }}</li>
+        <li style="list-style-type:None">watch_grade : {{ movie.watch_grade }}</li>
+        <li style="list-style-type:None">score : {{ movie.score }}</li>
+        <li style="list-style-type:None">poster_url : {{ movie.poster_url }}</li>
+        <li style="list-style-type:None">description : {{ movie.description }}</li>
+    </ul>
+    <a href="/movies/">[목록]</a>
+    <a href="/movies/{{ movie.id }}/edit/">[수정]</a>
+    <a href="/movies/{{ movie.id }}/delete/">[삭제]</a>
+{% endblock %}

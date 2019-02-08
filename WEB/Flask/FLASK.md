@@ -20,6 +20,8 @@
 
 
 
+
+
 ## FLASK SERVER WORK!
 
 - 서버를 끄지 않고 계속 구동하기 위한 코딩.
@@ -27,6 +29,7 @@
 ~~~python
 from flask import Flask
 
+# 플라스크 초기화
 app = Flask(__name__)
 
 if __name__ == '__main__':
@@ -40,6 +43,8 @@ if __name__ == '__main__':
 
 
 
+
+
 ## APP RUNNING!
 
 - WSGI서버를 통해 
@@ -50,13 +55,26 @@ def method():
     return 'a'
 ~~~
 
+- Route
+
+
+  ~~~python
+  @app.route('/users/create')
+  # unique한 페이지 url
+  @app.route('/users/create/')
+  # 얘는 후방 슬래시 있어도 잡고 없어도 잡음.
+  # 더 정확히는 후방 슬래시 없이 액세스 하면 슬래시가 있는 url로 잡아줌
+  ~~~
+
+
+
+
+
+
+
 
 
 ## GET, POST
-
-
-
-
 
 
 
@@ -66,6 +84,20 @@ flask에서 python기반으로 데이터 주고받기
 
 
 
+
+
+## URL Redirection
+
+- URL forwarding이라고도 한다.
+- 이용가능한 웹페이지를 하나이상의 url주소로 만들어주는 웹기법.
+- 플라스크에서는 url_for와 redirect를 조합해서 url redirection이 가능하다.
+- url_for로 url을 생성하고, redirect로 이동한다고 생각하면 된다!
+- url_for는 주소를 받지 않고 뷰함수 이름을 받는다.
+
+~~~python
+url_for('index')
+return redirect(url_for('index'))
+~~~
 
 
 
@@ -105,33 +137,20 @@ flask에서 python기반으로 데이터 주고받기
   {{ super() }}
   ~~~
 
-  
 
 
 
 
 
+## Modular Applidation with Blueprints
 
-
-
-
+~~~html
 <link rel="icon" href="{{url_for('static', filename='favicon.png')}}" type="image/png"/>
+~~~
 
-templates처럼 static에서 들고와야함.
-
-
-
-CRUD 정리할것.
-
-
-
-redirect, url_for 쓰는 법 배울 것.
-
-```python
-url_for('index')
-return redirect(url_for('index'))
-```
-
+- 왜 템플릿은 템플릿 폴더에 넣어야 하고 이미지는 스태틱폴더에 넣어야 하는지에 대한 이야기
+  http://flask.pocoo.org/docs/1.0/blueprints/?highlight=static
+- 한마디로 축약하자면 모듈화의 편리성을 위해 flask에서 미리 설정해둔 규칙이라는 것.
 
 
 
@@ -147,4 +166,8 @@ https://www.python.org/dev/peps/pep-0333/#the-application-framework-side
 https://pythonhow.com/how-a-flask-app-works/
 
 https://spoqa.github.io/2012/01/16/wsgi-and-flask.html
+
+http://flask.pocoo.org/docs/1.0/
+
+위키백과 - URL 리다이렉션
 
