@@ -22,6 +22,12 @@
 
 
 
+## Flask 초기세팅하기
+
+- python 3.6버전과
+
+
+
 ## FLASK SERVER WORK!
 
 - 서버를 끄지 않고 계속 구동하기 위한 코딩.
