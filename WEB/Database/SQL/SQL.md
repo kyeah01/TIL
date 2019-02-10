@@ -66,7 +66,6 @@ SQL은 관계형 데이터베이스 관리시스템의 데이터를 관리하기
      > TRUNCATE TABLE table_name;
 
    
-   
 
 2. #### 데이터 조작 언어, DML : 데이터를 저장, 수정, 삭제, 조회등을 하기 위한 언어.
 
@@ -120,7 +119,6 @@ SQL은 관계형 데이터베이스 관리시스템의 데이터를 관리하기
 
    - **AUTOINCREMENT**: INTEGER에서만 쓸 수 있음.
 
-   
    
 
 3. #### 데이터 제어 언어, DCL : 데이터 베이스 사용자의 권한제어를 위해 사용되는 언어
@@ -207,6 +205,18 @@ SELECT * FROM classmates;
 .read class_table.sql
 -- class_table.sql을 읽어서 실행함.
 ~~~
+
+
+
+
+
+## Autoincrement와 Primary Key
+
+- autoincrement는 자동으로 숫자가 증가하게 하는 것
+- Primary key는 중복된 값을 갖지 않게 하는 것
+- 두 값 모두 Integer인 상태에서 autoincrement와 PK 값을 각각 주면 어떤 차이가 일어날까?
+- Autoincrement와 pk는 똑같이 증가하지만 중간에 하나의 값이 사라졌을때 유의미한 차이를 보인다.
+- 1,2,3 을 id로 갖는 data가 존재하는 상황에서 3번이 삭제된 경우 pk는 다음 데이터에게 3의 id 값을 부여하지만 autoincrement는 4의 id값을 부여한다. 해당 id값이 delete 명령을 받은 상황에 이미 해당 id값에 문제가 있다고 판단했기 때문이다.
 
 
 
