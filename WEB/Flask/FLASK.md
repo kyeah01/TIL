@@ -38,7 +38,7 @@
   ~~~bash
   # python 설치
   $ pyenv install 3.6.7
-  $ pyenv global 3.6.7
+  $ pyenv global 3.6.7		# 3.6.7을 글로벌선언
   $ pyenv rehash
   $ python -V					# 설치된 python의 버전 확인
   ~~~
