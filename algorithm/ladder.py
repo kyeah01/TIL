@@ -39,3 +39,21 @@ for _ in range(10):
                 i -= 1
     print(j)
     
+
+
+def DFS_Iterative(S,v):
+    S = [v]
+    while stack:
+        v = S.pop()
+        if v not in visited:
+            visited.append(v)
+            visit()
+            S.extend(G[v]-set(visited))
+    return visited
+
+def DFS_Recursive(G,v):
+    visited[v] = True
+    visit(v)
+    for w in G[v]:
+        if not visited[w]:
+            DFS_Recursive(G,w)
