@@ -22,7 +22,7 @@
 
 
 
-## Flask 초기세팅하기
+## C9 초기세팅하기
 
 - python 3.6.7버전과 가상환경 구축을 위한 pyenv-virtualenv를 설치하는 경우를 예로 한다. ( python 3.7 버젼은 ubuntu openssl 이슈가 존재한다고 한다. )
 
