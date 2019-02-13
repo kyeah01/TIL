@@ -1,21 +1,19 @@
 # Django
 
-## 0. 준비사항
-
-1. pyenv//python
-   [Flask 초기세팅참고](https://github.comda/kyeah01/TIL/blob/master/WEB/Flask/FLASK.md)
-
 - django는 풀스택 개발 툴이다.
 - 프레임을 잘 해야 하는 웹프레임 언어가 있고, 해당 프로그래밍 언어를 잘 해야 하는 웹 프레임 언어가 있다.
 - 장고는 파이썬을 잘 해야 웹 프레임 워크를 잘 다룰 수 있는 경우.
 - 장고도 MVC: model view controll을 활용하지만 MTV:model template(다른 언어에서의 view) view라고 한다.
-- .gitignore설정
 
 
 
-## c9 초기 세팅하기
+## 준비사항
 
-- 
+[Flask 초기세팅참고](https://github.comda/kyeah01/TIL/blob/master/WEB/Flask/FLASK.md)
+
+1. pyenv / python / pyenv-virtualenv
+2. 가상환경 생성
+3. **git을 활용할 경우 .gitignore 설정 잊지말고 꼭 하기**
 
 
 
@@ -41,7 +39,7 @@
   TIME_ZONE = 'Asia/Seoul'
   ~~~
 
-- c9에서 Django를 구현하면 해 줘야 하는 설정(로컬은 필요없어요)
+- __C9__에서 Django를 구현하면 해 줘야 하는 설정(로컬은 필요없어요)
 
   ~~~python
   # c9 이라서 서버에러뜬다!
@@ -152,27 +150,19 @@
 
 - templates를 활용한 return
 
+  - templates variable로 render를 사용한다.
+    render(request, template_name, context=None, context_type=None, status=None, using=None)
+
   ~~~python
   # flask의 render_template와 같이 templates 폴더 안에 템플릿을 생성한다.
   # render 함수로 구현한다.
   # render함수는 request와 html 이름을 필수인자로 받고,
   # 인자를 넘겨주기 위해서는 반드시 딕셔너리를 활용해야 한다.
   # 딕셔너리가 아니라 QueryDict이긴 하지만 딕셔너리와 비슷하게 생각하면 된다.
-  return render(request, 'dinner.html', {'menus' : menu, 'pick' : pick})
+  return render( request, 'dinner.html', {'menus' : menu, 'pick' : pick})
   ~~~
 
 
-
-#### 
-
-#### 저녁메뉴 리턴 실습
-
-#### templates 실습
-
-#### templates variable
-
-- render()
-  - render(request, template_name, context=None, context_type=None, status=None, using=None)
 
 
 
