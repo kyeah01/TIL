@@ -27,6 +27,7 @@
 - python 3.6.7버전과 가상환경 구축을 위한 pyenv-virtualenv를 설치하는 경우를 예로 한다. ( python 3.7 버젼은 ubuntu openssl 이슈가 존재한다고 한다. )
 
 - 차례대로 진행하면 된다.
+  
 
 - pyenv : 파이썬 버전을 관리하는 툴, 하나의 컴퓨터에 다양한 파이썬 버전을 설치하고 관리한다.
 
@@ -42,6 +43,8 @@
   $ pyenv rehash
   $ python -V					# 설치된 python의 버전 확인
   ~~~
+
+  
 
 - pyenv-virtualenv : 파이썬 환경을 격리하는 툴로 pyenv의 확장 플러그인이다. 파이썬 버전과 라이브러리의 완전한 격리 환경을 제공한다.
 
