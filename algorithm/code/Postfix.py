@@ -15,29 +15,25 @@
 #             stack에서 pop해서 result에 더해줌
 #         스택에서 여는괄호 없애줌.
 
-String = input()
-operator = {'*':2, '/':2, '+':1, '-':1}
-bracket = {'(', ')'}
-stack = []
-result = []
+def Postfix(String):
+    operator = {'*':2, '/':2, '+':1, '-':1}
+    bracket = {'(', ')'}
+    stack = []
+    result = []
+    for s in String:
+        if s not in operator and s not in bracket:
+            result += [s]
+        elif s == '(':
+            stack += [s]
+        elif s == ')':
+            while stack and stack[-1] != '(':
+                result += stack.pop()
+            stack.pop()
+        elif s in operator:
+            while stack and stack[-1] != '(' and operator[s] < operator[stack[-1]]:
+                result += stack.pop()
+            stack.append(s)
 
-for s in String:
-    if s not in operator and s not in bracket:
-        result += [s]
-    elif s == '(':
-        stack += [s]
-    elif s == ')':
-        while stack and stack[-1] != '(':
-            result += stack.pop()
-        stack.pop()
-    elif s in operator:
-        while stack and stack[-1] != '(' and operator[s] <= operator[stack[-1]]:
-            result += stack.pop()
-        stack.append(s)
-
-while stack:
-    result += stack.pop()
-
-print(''.join(result))
-
-
+    while stack:
+        result += stack.pop()
+    return result
