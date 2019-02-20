@@ -27,14 +27,6 @@ TEMPLATES extends를 위한 설정
 
 
 
-
-
-setting에서 
-
-USE_TZ = False를 해줘야
-
-내부적으로 돌아가는 것도 utc시간이 아니라 설정한 시간으로 바뀜
-
 ## model 설정하기
 
 - 각 app에 있는 models.py 파일을 수정해서 반영한다. model설정.
@@ -99,7 +91,7 @@ class Board(models.Model):                      # 각 모델은 django.db.models
 ~~~
 
 -  import 꼬박꼬박 해주기 싫어!!
-  장고에는 extention이라는게 있는데
+  장고에는 extension이라는게 있는데
 
   ~~~bash	
   $ pip install django-extensions
@@ -125,7 +117,7 @@ class Board(models.Model):                      # 각 모델은 django.db.models
   
   
   >>> Board.objects.create(title='third', content='django!!!')
-  얘는 세이브가 필ㅇ없음
+  얘는 세이브가 필요없음
   ~~~
 
 
@@ -153,7 +145,7 @@ class Board(models.Model):                      # 각 모델은 django.db.models
 
 
 
-Read
+### Read
 
 ~~~python
 Board.objects.filter(title='first').all()
@@ -204,3 +196,44 @@ boards = Board.objects.filter(title__contains='fi').all()
 
 
 ### Update
+
+
+
+
+
+
+
+
+
+{{ board.created_at|timesince }}전
+
+
+
+
+
+
+
+모듈 import하는 순서
+
+같은 디렉토리에 있는 models를 가져온다고 쓴것. 명시적 상대 표현
+1. 파이썬 표준 라이브러리를 제일 먼저 씀(os, random)
+2. core django(django 프레임워크)에 내장되어 있는 것
+3. third party library, pip install을 통해 사용하는 것들 (외부적으로 설치가 필요한것)
+4. 장고 프로젝트 앱
+
+
+
+
+
+## html Redirect
+
+return render(request, 'boards/index.html')
+
+html을 받아와서 보여주기때문에 표지페이지 같지만, index그 자체는 아니기때문에 진짜 index처럼 보이지는 않는다.
+
+create는 model에 record를 생성하라는 요청을 보내기때문에, 단순히 페이지를 달라고 하는 요청의  get보다는  post가 의미상 더 적절하며, 모델과 관련된 데이터이기 때문에 url에 직접 보여지는 것은 좋지 않다. get이면 사용자가 url로 마음대로 주무를수 있다.
+
+```python
+return redirect('/boards/')
+# redirect안에는 뷰함수, name이나 모델도 인자로 들어갈 수 있다.
+```
