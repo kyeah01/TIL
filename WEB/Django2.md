@@ -22,3 +22,185 @@ TEMPLATES extends를 위한 설정
 'DIRS': [os.path.join(BASE_DIR, 'django_intro', 't')],
 
 'APP_DIRS': True,는 installed app에 설정된 dir에 있는 templates를 template으로 활용한다.
+
+
+
+
+
+
+
+setting에서 
+
+USE_TZ = False를 해줘야
+
+내부적으로 돌아가는 것도 utc시간이 아니라 설정한 시간으로 바뀜
+
+## model 설정하기
+
+- 각 app에 있는 models.py 파일을 수정해서 반영한다. model설정.
+- 
+
+~~~python
+class Board(models.Model):                      # 각 모델은 django.db.models.Model 클래스의 서브 클래스로 표현된다.
+    title = models.CharField(max_length=10)     # 무한정 값을 가질 수 없으니까 필수인자로 무조건 max값을 가져야함.
+                                                # 유효성 검사를 위해서도 필요.
+    content = models.TextField()                # 얘는 제한이 없음
+    created_at = models.DateTimeField(auto_now_add = True)
+												# 장고모델이 최초저장시에만 현재 날짜를 적용
+~~~
+
+- 장고한테 이렇게 DB를 넣을꺼야 하고 말해줘야함
+
+  ~~~bash
+  $ python manage.py makemigrations boards
+  ~~~
+
+- 
+
+- sqlite가 어떻게 되는지 확인하는 코딩
+
+  ~~~bash
+  $ python manage.py sqlmigrate boards 0001
+  ~~~
+
+  ~~~bash
+  BEGIN;
+  --
+  -- Create model Board
+  --
+  CREATE TABLE "boards_board" ("id" integer NOT NULL PRIMARY KEY AUTOINCREMENT, "title" varchar(10) NOT NULL, "content" text NOT NULL, "created_at" datetime NOT NULL);
+  COMMIT;
+  ~~~
+
+- 값 주지 않아도 알아서 id값을 기본으로 pk로 가짐
+
+- DB를 반영해주는거.
+
+
+  ~~~bash
+  $ python manage.py migrate
+  ~~~
+
+- python 인터프리터 장고에서 실행하기
+
+
+  ~~~python
+  python manage.py shell
+  ~~~
+
+- 장고 orm으로 
+
+~~~python
+>>> board = Board()
+>>> board.title = 'first'
+>>> board.content = 'django!'
+>>> board.save()
+>>> board.object.all()
+~~~
+
+-  import 꼬박꼬박 해주기 싫어!!
+  장고에는 extention이라는게 있는데
+
+  ~~~bash	
+  $ pip install django-extensions
+  ~~~
+
+  로 설치하고 나서 settings의 installed_app에서
+
+  ~~~python
+  'django_extentions'
+  ~~~
+
+  그런다음에 
+
+  ~~~bash
+  $ python manage.py shell_plus
+  ~~~
+
+  로 들어오면 모두 import 되어있는것을 확인할 수 있다!!
+
+  ~~~python
+  >>> board = Board(title='second', content='django!!')
+  >>> board.save()
+  
+  
+  >>> Board.objects.create(title='third', content='django!!!')
+  얘는 세이브가 필ㅇ없음
+  ~~~
+
+
+
+## CRUD
+
+### Create
+
+~~~python
+>>> board = Board()
+  >>> board.title = 'fourth'
+  >>> board.content = 'django'
+  >>> board.id
+  >>> board.created_at
+  >>> board.save()
+  >>> board.id
+  4
+  >>> board.created_at
+  datetime.datetime(2019, 2, 20, 10, 35, 33, 544975)
+  >>> board = Board()
+  >>> board.title = 'adfasdfasdfsadfasfasdfasdfasdfasdfasdf'
+  >>> board.full_clean()
+  # 장고가 얘를 검증해서 알려줌
+~~~
+
+
+
+Read
+
+~~~python
+Board.objects.filter(title='first').all()
+# title이 first인걸 전부 선택함
+<QuerySet [<Board: 1: first>]>
+
+
+Board.objects.filter(title='first').first()
+<Board: 1: first>
+
+하나만 뽑는거니까 위에랑 데이터 값이 다름
+
+Board.objects.filter(title='missing').first()
+# 없으면 none리턴
+
+데이터가 어떻게 리턴되는지, 어디에 들어있는지 알아야 한다.
+.get과 filter는 다르게 리턴되는 것을 알아야 한다.
+
+포함되는거
+boards = Board.objects.filter(title__contains='fi').all()
+
+시작하는거
+>>> boards = Board.objects.filter(title__startswith='fi').all()
+
+오름차순
+>>> boards = Board.objects.order_by('title').all()
+
+내림차순
+>>> boards = Board.objects.order_by('-title').all()
+
+
+~~~
+
+
+
+### Delete
+
+~~~python
+>>> board = Board.objects.get(pk=1)
+>>> board.title = 'hello'
+>>> board.save()
+>>> board.title
+'hello'
+>>> board.delete()
+(1, {'boards.Board': 1})
+~~~
+
+
+
+### Update

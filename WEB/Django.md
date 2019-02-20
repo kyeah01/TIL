@@ -37,6 +37,9 @@
   # Internationalization을 바꿔주자
   LANGUAGE_CODE = 'ko-kr'
   TIME_ZONE = 'Asia/Seoul'
+  
+  # 변경해줘도 서버 내부적으로 돌아가는 시간이 UTC시간인데, 이걸 바꿔주는 설정.
+  USE_TZ = False
   ~~~
 
 - __C9__에서 Django를 구현하면 해 줘야 하는 설정(로컬은 필요없어요)
