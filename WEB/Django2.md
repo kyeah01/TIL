@@ -128,19 +128,19 @@ class Board(models.Model):                      # 각 모델은 django.db.models
 
 ~~~python
 >>> board = Board()
-  >>> board.title = 'fourth'
-  >>> board.content = 'django'
-  >>> board.id
-  >>> board.created_at
-  >>> board.save()
-  >>> board.id
-  4
-  >>> board.created_at
-  datetime.datetime(2019, 2, 20, 10, 35, 33, 544975)
-  >>> board = Board()
-  >>> board.title = 'adfasdfasdfsadfasfasdfasdfasdfasdfasdf'
-  >>> board.full_clean()
-  # 장고가 얘를 검증해서 알려줌
+>>> board.title = 'fourth'
+>>> board.content = 'django'
+>>> board.id
+>>> board.created_at
+>>> board.save()
+>>> board.id
+4
+>>> board.created_at
+datetime.datetime(2019, 2, 20, 10, 35, 33, 544975)
+>>> board = Board()
+>>> board.title = 'adfasdfasdfsadfasfasdfasdfasdfasdfasdf'
+>>> board.full_clean()
+# 장고가 얘를 검증해서 알려줌
 ~~~
 
 
@@ -175,8 +175,6 @@ boards = Board.objects.filter(title__contains='fi').all()
 
 내림차순
 >>> boards = Board.objects.order_by('-title').all()
-
-
 ~~~
 
 
@@ -211,20 +209,6 @@ boards = Board.objects.filter(title__contains='fi').all()
 
 
 
-
-
-모듈 import하는 순서
-
-같은 디렉토리에 있는 models를 가져온다고 쓴것. 명시적 상대 표현
-1. 파이썬 표준 라이브러리를 제일 먼저 씀(os, random)
-2. core django(django 프레임워크)에 내장되어 있는 것
-3. third party library, pip install을 통해 사용하는 것들 (외부적으로 설치가 필요한것)
-4. 장고 프로젝트 앱
-
-
-
-
-
 ## html Redirect
 
 return render(request, 'boards/index.html')
@@ -237,3 +221,18 @@ create는 model에 record를 생성하라는 요청을 보내기때문에, 단�
 return redirect('/boards/')
 # redirect안에는 뷰함수, name이나 모델도 인자로 들어갈 수 있다.
 ```
+
+
+
+
+
+delete 해보기
+
+~~~html
+<a href="/boards/{{ board.pk }}/delete" onclick="return confirm('진짜 지울꺼야??')" class="btn btn-primary">삭제</a>
+~~~
+
+
+
+
+

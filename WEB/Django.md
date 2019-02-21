@@ -5,6 +5,18 @@
 - 장고는 파이썬을 잘 해야 웹 프레임 워크를 잘 다룰 수 있는 경우.
 - 장고도 MVC: model view controll을 활용하지만 MTV:model template(다른 언어에서의 view) view라고 한다.
 
+Django Basic
+
+1. [준비사항](#준비사항)
+
+1. [프로젝트 만들기](#프로젝트 만들기)
+
+2. [app만들기](#app 만들기)
+
+3. [MTV구현하기](#app안의 MTV 구현하기)
+
+4. [url redirect](#다른 페이지로 정보 넘기기)
+
 
 
 ## 준비사항
@@ -122,7 +134,7 @@
 
 
 
-## app안의 MTV 구현하기.
+## app안의 MTV 구현하기
 
 - <sup>1</sup>  처리할 views를 만들고 <sup>2 </sup> 요청 url을 만들고 <sup>3</sup> 결과 보여줄 templates만들기.
 
@@ -194,4 +206,21 @@
   ~~~
 
 - csrf token을 사용해야 한다. middle ware 보안절차가 존재하기때문.
+
+
+
+
+
+
+
+## 추가사항
+
+### Django에서 모듈을 Import선언하는 순서
+
+1. 파이썬 표준 라이브러리를 제일 먼저 쓴다.(os, random 등 내장 라이브러리를 뜻한다.)
+2. core django(django 프레임워크)에 내장되어 있는 것을 그 다음으로 쓴다.
+3. third party library, pip install을 통해 사용하는 것들 (외부적으로 설치가 필요한 외부 라이브러리를 그 다음으로 쓴다.)
+4. 장고를 사용하면서 선언했던 프로젝트 앱을 그 다음으로 import한다.
+
+
 
