@@ -8,9 +8,9 @@ def half(L):
         return [game(L)]
     else:
         if len(L)%2:
-            return half(L[:len(L)//2+1]) + half(L[len(L)//2+1:])
+            return half(half(L[:len(L)//2+1]) + half(L[len(L)//2+1:]))
         else:
-            return half(L[:len(L)//2]) + half(L[len(L)//2:])
+            return half(half(L[:len(L)//2]) + half(L[len(L)//2:]))
 
 def game(L):
     if min(L[0][1], L[1][1]) == 1 and max(L[0][1], L[1][1]) == 3:
@@ -22,8 +22,4 @@ for tc in range(1, int(input())+ 1):
     n = int(input())
     L = list(map(int, input().split()))
     L = [[i+1,L[i]] for i in range(len(L))]
-    A = half(L)
-    while len(A) > 1 or len(B) > 1:
-        B = half(A)
-        A = half(B)
-    print(f'#{tc}', A[0][0])
+    print(f'#{tc}', half(L)[0][0])
