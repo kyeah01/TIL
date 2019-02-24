@@ -1,0 +1,9 @@
+{% extends 'uris/base.html' %}
+{% block title %}input form{% endblock %}
+{% block body %}
+    <form action='/uris/hello/', method="POST">
+        {% csrf_token %}
+        <input type="text" name="name"/>
+        <input type="submit" value="Submit"/>
+    </form>
+{% endblock %}

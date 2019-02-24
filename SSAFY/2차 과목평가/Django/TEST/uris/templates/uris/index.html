@@ -1,0 +1,37 @@
+{% extends 'uris/base.html' %}
+{% block title %}INDEX{% endblock %}
+{% block css %}
+<style>
+    .box1 {
+        background-color : red;
+    }
+    .box2 {
+        background-color : blue;
+    }
+    .box3 {
+        background-color : green;
+    }
+    .box4 {
+        background-color : yellow;
+    }
+    .box5 {
+        background-color : pink;
+    }
+    .box6 {
+        background-color : black;
+    }
+</style>
+{% endblock %}
+{% block body %}
+<h1>내가 더 짱이다</h1>
+<div class="container">
+<div class="row">
+    <div class="box1 col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">red</div>
+    <div class="box2 col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">blue</div>
+    <div class="box3 col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">green</div>
+    <div class="box4 col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">yellow</div>
+    <div class="box5 col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">pink</div>
+    <div class="box6 col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 text-white">black</div>
+</div>
+</div>
+{% endblock %}
