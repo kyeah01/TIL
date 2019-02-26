@@ -135,6 +135,7 @@
 ### Utilities
 
 - spacing : 5는 3rem, 48px을 뜻한다.
+- 3=1rem, 4=1.5, 5=3rem, 1=0.25 , 2=0.5
 - color는 primary, warning......
 - border : border border-primary
 - rounded circle, rounded pill
