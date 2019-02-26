@@ -8,15 +8,14 @@ for tc in range(1, 1+int(input())):
     i = 0
     q = [pizza.pop(0) for _ in range(N)]
     while q:
-
         a = q.pop(0)
         if a[1] != 0:
-            q += [[a[0], a[1]//2]]
-            
+            if a[1]//2:
+                q += [[a[0], a[1]//2]]
+            else:
+                if pizza:
+                    q += [pizza.pop(0)]
         else:
             if pizza:
                 q += [pizza.pop(0)]
- 
-                
-
     print(f'#{tc}', a[0]+1)
