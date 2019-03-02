@@ -1,6 +1,6 @@
 # Stack
 
-![자료구조 분류](..\MD_Image\Algorithm\Stack\01.자료구조 분류.png)
+![01](https://user-images.githubusercontent.com/45934061/53683464-4f5bd680-3d44-11e9-8e83-7bd4b4e3ce17.png)
 
 
 
@@ -25,7 +25,7 @@
    - isEmpty : 스택이 공백인지 아닌지 확인연산
    - peek : 스택이 top에 있는 원소를 반환하는 연산
 
-   ![](..\MD_Image\Algorithm\Stack\02.stack연산.png)
+     ![02 stack](https://user-images.githubusercontent.com/45934061/53683465-4ff46d00-3d44-11e9-9d29-d2bec39044fd.png)
    -> 언더플로우(stack이 이미 0이 되었는데도 pop을 연산하는 경우)에 대한 처리가 필요하다.
 
 
