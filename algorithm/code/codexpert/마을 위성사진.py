@@ -38,7 +38,7 @@ while v != a:
     for i in range(1, N-1):
         for j in range(1, N-1):
             if sat[i][j] and v == 1 or sat[i][j] == v:
-                m = min(sat[i - 1][j], sat[i + 1][j], sat[i][j - 1], sat[i][j + 1])
+                m = min(sat[i-1][j], sat[i+1][j], sat[i][j-1], sat[i][j+1])
                 if sat[i][j] <= m:
                     sat[i][j] = m+1
                     v = max(m+1, v)
