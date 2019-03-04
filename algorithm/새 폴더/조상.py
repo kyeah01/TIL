@@ -22,6 +22,8 @@ for tc in range(1, int(input())+1):
                     graph[i][1] = edge[j][1]
             if edge[j][1] == graph[i][0]:
                 graph[i][3] = edge[j][0]
-    # for i in edge:
+
+
+
 
 print(time.time()-start_time)
