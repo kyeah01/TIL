@@ -1,3 +1,6 @@
+import sys
+sys.stdin = open('2.txt')
+
 def inorder(n):
     global result
     if n != 0:

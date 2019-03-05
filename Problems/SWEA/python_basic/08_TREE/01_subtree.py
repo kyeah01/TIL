@@ -1,3 +1,6 @@
+import sys
+sys.stdin = open('1.txt')
+
 for tc in range(1, int(input())+1):
     count_Edge, target = map(int, input().split())
     inp = list(map(int, input().split()))
