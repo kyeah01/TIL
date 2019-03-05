@@ -8,7 +8,7 @@ def check(total, nomi, num):
     nomi = [i for i in range(3) if maxN == number[i]]
     if len(nomi) == 1:
         return (nomi[0]+1, total)
-    elif num == 1:
+    elif num == 2:
         return (0, total)
     else:
         return check(total, nomi, num-1)

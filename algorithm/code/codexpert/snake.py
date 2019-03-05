@@ -4,9 +4,13 @@ def snake(board, way, n):
     di = 0
     snake = [[0,0]]
     cnt = 0
-    while way:
-        go = way.pop(0)
-        for _ in range(int(go[0])):
+    time = 0
+    while True:
+        if way:
+            go = way.pop(0)
+        else:
+            go = (10000000,0)
+        for _ in range(int(go[0])-time):
             cnt += 1
             x, y = snake[-1][0]+direc[di][0], snake[-1][1]+direc[di][1]
             snake += [[x,y]]
@@ -14,25 +18,17 @@ def snake(board, way, n):
                 return cnt
             elif board[x][y] == 's':
                 return cnt
-            elif board[x][y] == 'f':
-                board[x][y] = 's'
             elif board[x][y] == 0:
                 tail = snake.pop(0)
                 board[tail[0]][tail[1]] = 0
-                board[x][y] = 's'
-            for i in range(n):
-                print(*board[i])
-            print(x,y, cnt)
-            print()
+            board[x][y] = 's'
+        time = int(go[0])
         if go[1] == 'D':
-            #  -> indi==3(0->3) (1, 0) (2,1) (3,2)
-            di += -1 if di else 3
+            #  -> di==3(0->3) (1, 0) (2,1) (3,2)
+            di = 3 if not di else di-1
         else:
-            #  -> indi == 1(0->1) (1, 2) (2,3) (3,0)
-            di += -3 if di == 3 else 1
-    # 종료되지 않았는데 방향회전이 없을시 그대로 직진해서 머리를 들이박는 코드 필요
-
-
+            #  -> di == 1(0->1) (1, 2) (2,3) (3,0)
+            di = di+1 if di != 3 else 0
 
 n = int(input())
 board = [[0 for _ in range(n)] for _ in range(n)]
