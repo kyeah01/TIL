@@ -1,10 +1,8 @@
 def snake(board, way, n):
     # 오른쪽 위 왼쪽 아래
     direc = [[0,1], [-1, 0], [0, -1], [1, 0]]
-    di = 0
+    di, cnt, time = 0, 0, 0
     snake = [[0,0]]
-    cnt = 0
-    time = 0
     while True:
         if way:
             go = way.pop(0)
@@ -24,10 +22,10 @@ def snake(board, way, n):
             board[x][y] = 's'
         time = int(go[0])
         if go[1] == 'D':
-            #  -> di==3(0->3) (1, 0) (2,1) (3,2)
+            #  -> (0->3) (1, 0) (2,1) (3,2)
             di = 3 if not di else di-1
         else:
-            #  -> di == 1(0->1) (1, 2) (2,3) (3,0)
+            #  -> (0->1) (1, 2) (2,3) (3,0)
             di = di+1 if di != 3 else 0
 
 n = int(input())
