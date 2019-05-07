@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>v-bind</title>
+    <style>
+        img {
+            width: 800px;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div id="app">
+        <h1>Hello, {{ name }}</h1>
+        <!-- <img v-bind:src="happy"> -->
+        <!-- 혹은 이렇게 -->
+        <h2>{{ Date() }}</h2>
+        <h3><input type="checkbox" v-model="emotion">누르면 행복해집니다</h3>
+        <img :src="emotion ? happy : sad">
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script>
+        const app = new Vue({
+            el:'#app',
+            data: {
+                name: 'Vue',
+                emotion: true,
+                happy: 'https://dg.imgix.net/do-you-think-you-re-happy-jgdbfiey-en/landscape/do-you-think-you-re-happy-jgdbfiey-9bb0198eeccd0a3c3c13aed064e2e2b3.jpg?ts=1520525855&ixlib=rails-3.0.2&auto=format%2Ccompress&fit=min&w=700&h=394&dpr=2&ch=Width%2CDPR',
+                sad: 'https://cdn3.vectorstock.com/i/1000x1000/73/57/sad-emoticon-vector-417357.jpg'
+            }
+        })
+
+    // v-bind : html태그의 속성값에 vue에서 만든 데이터값으로 사용해야 할때 사용한다.
+    </script>
+</body>
+</html>
