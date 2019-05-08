@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!-- CDN -->
+    <!-- vue -->
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <!-- firebase -->
+    <script src="https://www.gstatic.com/firebasejs/5.8.4/firebase.js"></script>
+    <!-- vuefire -->
+    <script src="https://unpkg.com/vuefire/dist/vuefire.js"></script>
+    <!-- vuefireUI for WEB -->
+    <script src="https://cdn.firebase.com/libs/firebaseui/3.6.0/firebaseui.js"></script>
+    <link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/3.6.0/firebaseui.css" />
+
+    <script>
+        const config = {
+            apiKey: "AIzaSyCmhGXORJ26rlw565dQnAj6QCouPz0rlUc",
+            projectId: "chat-55607",
+            databaseURL: "https://chat-55607.firebaseio.com/",
+        }
+        firebase.initializeApp(config)
+    </script>
+</head>
+<body>
+    <div id="app">
+        <div v-if="currentUser.uid">
+            <header>
+                <span>Hello, {{ currentUser.displayName }}</span>
+                <button @click="logout">LOGOUT</button>
+            </header>
+            <ul>
+                <li v-for="msg in messages">
+                    <b>{{ msg.auth }}</b> : {{ msg.text }}
+                </li>
+            </ul>
+            <div>
+                <input type="text" v-model="newMessage" @keyup.enter="createMessage">
+                <button @click="createMessage">></button>
+            </div>
+
+        </div>
+        <div v-else>
+            <div id="firebaseui-auth-container">
+
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        const database = firebase.database()
+        const auth = firebase.auth()
+        var ui = new firebaseui.auth.AuthUI(auth)
+        const app = new Vue({
+            el: '#app',
+            data: {
+                newMessage: '',
+                currentUser: {
+                    uid: '',
+                    email: '',
+                    displayName: '',
+                },
+            },
+            firebase: {
+                messages: database.ref('messages')
+            },
+            // 이게 왜 되는거지???
+            mounted: function () {
+                auth.onAuthStateChanged(user=> {
+                    if (user) {
+                        this.currentUser.uid = user.uid
+                        this.currentUser.email = user.email
+                        this.currentUser.displayName = user.displayName
+                    } else {
+                        this.initUi()
+                    }
+                })
+            },
+            methods: {
+                createMessage: function () {
+                        if (this.messages) {
+                            this.$firebaseRefs.messages.push({
+                                auth: this.currentUser.displayName,
+                                text: this.newMessage,
+                            }),
+                            this.newMessage = ''
+                        }
+                    },
+                initUi: function () {
+                    ui.start('#firebaseui-auth-container', {
+                        signInOptions: [
+                            firebase.auth.EmailAuthProvider.PROVIDER_ID
+                            ],
+                        callbacks: {
+                            signInSuccessWithAuthResult: (authResult, redirectUrl) => {
+                                this.currentUser.uid = authResult.user.uid
+                                this.currentUser.email = authResult.user.email
+                                this.currentUser.displayName = authResult.user.displayName
+                                return false
+                            }
+                        }
+                    })
+                },
+                logout: function () {
+                    this.currentUser = {
+                        uid: '',
+                        email: '',
+                        displayName: '',
+                    }
+                    auth.signOut()
+                },
+            }
+        })
+    </script>
+</body>
+</html>
