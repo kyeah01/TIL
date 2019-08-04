@@ -1,0 +1,3834 @@
+폴더 PATH의 목록입니다.
+볼륨 일련 번호는 90D7-59A5입니다.
+C:.
+├─node_modules
+│  ├─.bin
+│  ├─@babel
+│  │  ├─code-frame
+│  │  │  └─lib
+│  │  ├─core
+│  │  │  ├─lib
+│  │  │  │  ├─config
+│  │  │  │  │  ├─files
+│  │  │  │  │  ├─helpers
+│  │  │  │  │  └─validation
+│  │  │  │  ├─tools
+│  │  │  │  └─transformation
+│  │  │  │      ├─file
+│  │  │  │      └─util
+│  │  │  └─node_modules
+│  │  │      ├─.bin
+│  │  │      └─semver
+│  │  │          └─bin
+│  │  ├─generator
+│  │  │  └─lib
+│  │  │      ├─generators
+│  │  │      └─node
+│  │  ├─helper-annotate-as-pure
+│  │  │  └─lib
+│  │  ├─helper-builder-binary-assignment-operator-visitor
+│  │  │  └─lib
+│  │  ├─helper-builder-react-jsx
+│  │  │  └─lib
+│  │  ├─helper-call-delegate
+│  │  │  └─lib
+│  │  ├─helper-create-class-features-plugin
+│  │  │  └─lib
+│  │  ├─helper-define-map
+│  │  │  └─lib
+│  │  ├─helper-explode-assignable-expression
+│  │  │  └─lib
+│  │  ├─helper-function-name
+│  │  │  └─lib
+│  │  ├─helper-get-function-arity
+│  │  │  └─lib
+│  │  ├─helper-hoist-variables
+│  │  │  └─lib
+│  │  ├─helper-member-expression-to-functions
+│  │  │  └─lib
+│  │  ├─helper-module-imports
+│  │  │  └─lib
+│  │  ├─helper-module-transforms
+│  │  │  └─lib
+│  │  ├─helper-optimise-call-expression
+│  │  │  └─lib
+│  │  ├─helper-plugin-utils
+│  │  │  ├─lib
+│  │  │  └─src
+│  │  ├─helper-regex
+│  │  │  └─lib
+│  │  ├─helper-remap-async-to-generator
+│  │  │  └─lib
+│  │  ├─helper-replace-supers
+│  │  │  └─lib
+│  │  ├─helper-simple-access
+│  │  │  └─lib
+│  │  ├─helper-split-export-declaration
+│  │  │  └─lib
+│  │  ├─helper-wrap-function
+│  │  │  └─lib
+│  │  ├─helpers
+│  │  │  └─lib
+│  │  ├─highlight
+│  │  │  └─lib
+│  │  ├─parser
+│  │  │  ├─bin
+│  │  │  ├─lib
+│  │  │  └─typings
+│  │  ├─plugin-proposal-async-generator-functions
+│  │  │  └─lib
+│  │  ├─plugin-proposal-class-properties
+│  │  │  └─lib
+│  │  ├─plugin-proposal-decorators
+│  │  │  └─lib
+│  │  ├─plugin-proposal-dynamic-import
+│  │  │  └─lib
+│  │  ├─plugin-proposal-json-strings
+│  │  │  └─lib
+│  │  ├─plugin-proposal-object-rest-spread
+│  │  │  └─lib
+│  │  ├─plugin-proposal-optional-catch-binding
+│  │  │  └─lib
+│  │  ├─plugin-proposal-unicode-property-regex
+│  │  │  ├─lib
+│  │  │  ├─src
+│  │  │  └─test
+│  │  │      └─fixtures
+│  │  │          ├─with-unicode-flag
+│  │  │          │  ├─script-extensions
+│  │  │          │  ├─simple
+│  │  │          │  ├─unicode-10
+│  │  │          │  ├─unicode-11
+│  │  │          │  └─unicode-12
+│  │  │          └─without-unicode-flag
+│  │  │              ├─script-extensions
+│  │  │              ├─simple
+│  │  │              ├─unicode-10
+│  │  │              ├─unicode-11
+│  │  │              └─unicode-12
+│  │  ├─plugin-syntax-async-generators
+│  │  │  └─lib
+│  │  ├─plugin-syntax-decorators
+│  │  │  └─lib
+│  │  ├─plugin-syntax-dynamic-import
+│  │  │  └─lib
+│  │  ├─plugin-syntax-flow
+│  │  │  └─lib
+│  │  ├─plugin-syntax-json-strings
+│  │  │  └─lib
+│  │  ├─plugin-syntax-jsx
+│  │  │  └─lib
+│  │  ├─plugin-syntax-object-rest-spread
+│  │  │  └─lib
+│  │  ├─plugin-syntax-optional-catch-binding
+│  │  │  └─lib
+│  │  ├─plugin-syntax-typescript
+│  │  │  └─lib
+│  │  ├─plugin-transform-arrow-functions
+│  │  │  └─lib
+│  │  ├─plugin-transform-async-to-generator
+│  │  │  └─lib
+│  │  ├─plugin-transform-block-scoped-functions
+│  │  │  └─lib
+│  │  ├─plugin-transform-block-scoping
+│  │  │  └─lib
+│  │  ├─plugin-transform-classes
+│  │  │  └─lib
+│  │  ├─plugin-transform-computed-properties
+│  │  │  └─lib
+│  │  ├─plugin-transform-destructuring
+│  │  │  └─lib
+│  │  ├─plugin-transform-dotall-regex
+│  │  │  ├─lib
+│  │  │  ├─src
+│  │  │  └─test
+│  │  │      └─fixtures
+│  │  │          └─dotall-regex
+│  │  │              ├─simple
+│  │  │              └─with-unicode-flag
+│  │  ├─plugin-transform-duplicate-keys
+│  │  │  └─lib
+│  │  ├─plugin-transform-exponentiation-operator
+│  │  │  └─lib
+│  │  ├─plugin-transform-flow-strip-types
+│  │  │  └─lib
+│  │  ├─plugin-transform-for-of
+│  │  │  └─lib
+│  │  ├─plugin-transform-function-name
+│  │  │  └─lib
+│  │  ├─plugin-transform-literals
+│  │  │  └─lib
+│  │  ├─plugin-transform-member-expression-literals
+│  │  │  └─lib
+│  │  ├─plugin-transform-modules-amd
+│  │  │  └─lib
+│  │  ├─plugin-transform-modules-commonjs
+│  │  │  └─lib
+│  │  ├─plugin-transform-modules-systemjs
+│  │  │  └─lib
+│  │  ├─plugin-transform-modules-umd
+│  │  │  └─lib
+│  │  ├─plugin-transform-named-capturing-groups-regex
+│  │  │  └─lib
+│  │  ├─plugin-transform-new-target
+│  │  │  └─lib
+│  │  ├─plugin-transform-object-super
+│  │  │  └─lib
+│  │  ├─plugin-transform-parameters
+│  │  │  └─lib
+│  │  ├─plugin-transform-property-literals
+│  │  │  └─lib
+│  │  ├─plugin-transform-react-constant-elements
+│  │  │  └─lib
+│  │  ├─plugin-transform-react-display-name
+│  │  │  └─lib
+│  │  ├─plugin-transform-react-jsx
+│  │  │  └─lib
+│  │  ├─plugin-transform-react-jsx-self
+│  │  │  └─lib
+│  │  ├─plugin-transform-react-jsx-source
+│  │  │  └─lib
+│  │  ├─plugin-transform-regenerator
+│  │  │  └─lib
+│  │  ├─plugin-transform-reserved-words
+│  │  │  └─lib
+│  │  ├─plugin-transform-runtime
+│  │  │  ├─lib
+│  │  │  └─node_modules
+│  │  │      ├─.bin
+│  │  │      └─semver
+│  │  │          └─bin
+│  │  ├─plugin-transform-shorthand-properties
+│  │  │  └─lib
+│  │  ├─plugin-transform-spread
+│  │  │  └─lib
+│  │  ├─plugin-transform-sticky-regex
+│  │  │  └─lib
+│  │  ├─plugin-transform-template-literals
+│  │  │  └─lib
+│  │  ├─plugin-transform-typeof-symbol
+│  │  │  └─lib
+│  │  ├─plugin-transform-typescript
+│  │  │  └─lib
+│  │  ├─plugin-transform-unicode-regex
+│  │  │  └─lib
+│  │  ├─preset-env
+│  │  │  ├─data
+│  │  │  ├─lib
+│  │  │  │  └─polyfills
+│  │  │  │      ├─corejs2
+│  │  │  │      ├─corejs3
+│  │  │  │      └─regenerator
+│  │  │  └─node_modules
+│  │  │      ├─.bin
+│  │  │      └─semver
+│  │  │          └─bin
+│  │  ├─preset-react
+│  │  │  └─lib
+│  │  ├─preset-typescript
+│  │  │  ├─lib
+│  │  │  ├─src
+│  │  │  └─test
+│  │  │      └─fixtures
+│  │  │          ├─flow-compat
+│  │  │          │  ├─js-invalid
+│  │  │          │  ├─js-valid
+│  │  │          │  ├─ts-invalid
+│  │  │          │  ├─ts-valid
+│  │  │          │  ├─tsx-invalid
+│  │  │          │  └─tsx-valid
+│  │  │          └─jsx-compat
+│  │  │              ├─js-valid
+│  │  │              ├─ts-invalid
+│  │  │              └─tsx-valid
+│  │  ├─runtime
+│  │  │  ├─helpers
+│  │  │  │  └─esm
+│  │  │  └─regenerator
+│  │  ├─template
+│  │  │  └─lib
+│  │  ├─traverse
+│  │  │  └─lib
+│  │  │      ├─path
+│  │  │      │  ├─inference
+│  │  │      │  └─lib
+│  │  │      └─scope
+│  │  │          └─lib
+│  │  └─types
+│  │      ├─lib
+│  │      │  ├─asserts
+│  │      │  │  └─generated
+│  │      │  ├─builders
+│  │      │  │  ├─flow
+│  │      │  │  ├─generated
+│  │      │  │  └─react
+│  │      │  ├─clone
+│  │      │  ├─comments
+│  │      │  ├─constants
+│  │      │  │  └─generated
+│  │      │  ├─converters
+│  │      │  ├─definitions
+│  │      │  ├─modifications
+│  │      │  │  └─flow
+│  │      │  ├─retrievers
+│  │      │  ├─traverse
+│  │      │  ├─utils
+│  │      │  │  └─react
+│  │      │  └─validators
+│  │      │      ├─generated
+│  │      │      └─react
+│  │      └─scripts
+│  │          ├─generators
+│  │          └─utils
+│  ├─@cnakazawa
+│  │  └─watch
+│  │      ├─scripts
+│  │      └─test
+│  │          └─d
+│  │              └─d
+│  ├─@csstools
+│  │  ├─convert-colors
+│  │  │  └─lib
+│  │  └─normalize.css
+│  ├─@hapi
+│  │  ├─address
+│  │  │  ├─bench
+│  │  │  ├─lib
+│  │  │  └─test
+│  │  ├─hoek
+│  │  │  └─lib
+│  │  ├─joi
+│  │  │  └─lib
+│  │  │      └─types
+│  │  │          ├─alternatives
+│  │  │          ├─any
+│  │  │          ├─array
+│  │  │          ├─binary
+│  │  │          ├─boolean
+│  │  │          ├─date
+│  │  │          ├─func
+│  │  │          ├─lazy
+│  │  │          ├─number
+│  │  │          ├─object
+│  │  │          ├─string
+│  │  │          └─symbol
+│  │  ├─marker
+│  │  │  └─lib
+│  │  └─topo
+│  │      ├─lib
+│  │      └─node_modules
+│  │          └─@hapi
+│  │              └─hoek
+│  │                  └─lib
+│  ├─@jest
+│  │  ├─console
+│  │  │  └─build
+│  │  ├─core
+│  │  │  ├─build
+│  │  │  │  ├─assets
+│  │  │  │  ├─cli
+│  │  │  │  ├─lib
+│  │  │  │  └─plugins
+│  │  │  └─node_modules
+│  │  │      ├─ansi-regex
+│  │  │      └─strip-ansi
+│  │  ├─environment
+│  │  │  └─build
+│  │  ├─fake-timers
+│  │  │  └─build
+│  │  ├─reporters
+│  │  │  ├─build
+│  │  │  └─node_modules
+│  │  │      ├─jest-resolve
+│  │  │      │  └─build
+│  │  │      └─source-map
+│  │  │          ├─dist
+│  │  │          └─lib
+│  │  ├─source-map
+│  │  │  ├─build
+│  │  │  └─node_modules
+│  │  │      ├─callsites
+│  │  │      └─source-map
+│  │  │          ├─dist
+│  │  │          └─lib
+│  │  ├─test-result
+│  │  │  └─build
+│  │  ├─test-sequencer
+│  │  │  └─build
+│  │  ├─transform
+│  │  │  ├─build
+│  │  │  └─node_modules
+│  │  │      └─source-map
+│  │  │          ├─dist
+│  │  │          └─lib
+│  │  └─types
+│  │      └─build
+│  ├─@mrmlnc
+│  │  └─readdir-enhanced
+│  │      └─lib
+│  │          ├─async
+│  │          ├─stream
+│  │          └─sync
+│  ├─@nodelib
+│  │  └─fs.stat
+│  │      └─out
+│  │          ├─adapters
+│  │          ├─managers
+│  │          └─providers
+│  ├─@svgr
+│  │  ├─babel-plugin-add-jsx-attribute
+│  │  │  └─lib
+│  │  ├─babel-plugin-remove-jsx-attribute
+│  │  │  └─lib
+│  │  ├─babel-plugin-remove-jsx-empty-expression
+│  │  │  └─lib
+│  │  ├─babel-plugin-replace-jsx-attribute-value
+│  │  │  └─lib
+│  │  ├─babel-plugin-svg-dynamic-title
+│  │  │  └─lib
+│  │  ├─babel-plugin-svg-em-dimensions
+│  │  │  └─lib
+│  │  ├─babel-plugin-transform-react-native-svg
+│  │  │  └─lib
+│  │  ├─babel-plugin-transform-svg-component
+│  │  │  └─lib
+│  │  ├─babel-preset
+│  │  │  └─lib
+│  │  ├─core
+│  │  │  └─lib
+│  │  ├─hast-util-to-babel-ast
+│  │  │  └─lib
+│  │  ├─plugin-jsx
+│  │  │  ├─lib
+│  │  │  └─node_modules
+│  │  │      ├─.bin
+│  │  │      ├─@babel
+│  │  │      │  └─core
+│  │  │      │      └─lib
+│  │  │      │          ├─config
+│  │  │      │          │  ├─files
+│  │  │      │          │  ├─helpers
+│  │  │      │          │  └─validation
+│  │  │      │          ├─tools
+│  │  │      │          └─transformation
+│  │  │      │              ├─file
+│  │  │      │              └─util
+│  │  │      └─semver
+│  │  │          └─bin
+│  │  ├─plugin-svgo
+│  │  │  └─lib
+│  │  └─webpack
+│  │      └─lib
+│  ├─@types
+│  │  ├─babel__core
+│  │  ├─babel__generator
+│  │  ├─babel__template
+│  │  ├─babel__traverse
+│  │  ├─istanbul-lib-coverage
+│  │  ├─istanbul-lib-report
+│  │  ├─istanbul-reports
+│  │  ├─q
+│  │  ├─stack-utils
+│  │  └─yargs
+│  ├─@typescript-eslint
+│  │  ├─eslint-plugin
+│  │  │  ├─dist
+│  │  │  │  ├─configs
+│  │  │  │  ├─rules
+│  │  │  │  └─util
+│  │  │  └─docs
+│  │  │      └─rules
+│  │  ├─parser
+│  │  │  └─dist
+│  │  │      └─scope
+│  │  └─typescript-estree
+│  │      ├─dist
+│  │      │  └─ts-estree
+│  │      └─node_modules
+│  │          ├─.bin
+│  │          └─semver
+│  │              └─bin
+│  ├─@webassemblyjs
+│  │  ├─ast
+│  │  │  ├─esm
+│  │  │  │  ├─transform
+│  │  │  │  │  ├─denormalize-type-references
+│  │  │  │  │  └─wast-identifier-to-index
+│  │  │  │  └─types
+│  │  │  ├─lib
+│  │  │  │  ├─transform
+│  │  │  │  │  ├─denormalize-type-references
+│  │  │  │  │  └─wast-identifier-to-index
+│  │  │  │  └─types
+│  │  │  └─scripts
+│  │  ├─floating-point-hex-parser
+│  │  │  ├─esm
+│  │  │  └─lib
+│  │  ├─helper-api-error
+│  │  │  ├─esm
+│  │  │  └─lib
+│  │  ├─helper-buffer
+│  │  │  ├─esm
+│  │  │  └─lib
+│  │  ├─helper-code-frame
+│  │  │  ├─esm
+│  │  │  └─lib
+│  │  ├─helper-fsm
+│  │  │  ├─esm
+│  │  │  └─lib
+│  │  ├─helper-module-context
+│  │  │  ├─esm
+│  │  │  ├─lib
+│  │  │  ├─src
+│  │  │  └─test
+│  │  ├─helper-wasm-bytecode
+│  │  │  ├─esm
+│  │  │  └─lib
+│  │  ├─helper-wasm-section
+│  │  │  ├─esm
+│  │  │  └─lib
+│  │  ├─ieee754
+│  │  │  ├─esm
+│  │  │  ├─lib
+│  │  │  └─src
+│  │  ├─leb128
+│  │  │  ├─esm
+│  │  │  └─lib
+│  │  ├─utf8
+│  │  │  ├─esm
+│  │  │  ├─lib
+│  │  │  ├─src
+│  │  │  └─test
+│  │  ├─wasm-edit
+│  │  │  ├─esm
+│  │  │  └─lib
+│  │  ├─wasm-gen
+│  │  │  ├─esm
+│  │  │  │  └─encoder
+│  │  │  └─lib
+│  │  │      └─encoder
+│  │  ├─wasm-opt
+│  │  │  ├─esm
+│  │  │  └─lib
+│  │  ├─wasm-parser
+│  │  │  ├─esm
+│  │  │  │  └─types
+│  │  │  └─lib
+│  │  │      └─types
+│  │  ├─wast-parser
+│  │  │  ├─esm
+│  │  │  └─lib
+│  │  └─wast-printer
+│  │      ├─esm
+│  │      └─lib
+│  ├─@xtuc
+│  │  ├─ieee754
+│  │  │  └─dist
+│  │  └─long
+│  │      ├─dist
+│  │      └─src
+│  ├─abab
+│  │  └─lib
+│  ├─accepts
+│  ├─acorn
+│  │  ├─bin
+│  │  └─dist
+│  ├─acorn-dynamic-import
+│  │  ├─lib
+│  │  └─src
+│  ├─acorn-globals
+│  ├─acorn-jsx
+│  ├─acorn-walk
+│  │  └─dist
+│  ├─address
+│  │  └─lib
+│  ├─ajv
+│  │  ├─dist
+│  │  ├─lib
+│  │  │  ├─compile
+│  │  │  ├─dot
+│  │  │  ├─dotjs
+│  │  │  └─refs
+│  │  └─scripts
+│  ├─ajv-errors
+│  │  └─lib
+│  │      ├─dot
+│  │      └─dotjs
+│  ├─ajv-keywords
+│  │  └─keywords
+│  │      ├─dot
+│  │      └─dotjs
+│  ├─alphanum-sort
+│  │  └─lib
+│  ├─ansi-colors
+│  │  └─types
+│  ├─ansi-escapes
+│  ├─ansi-html
+│  │  └─bin
+│  ├─ansi-regex
+│  ├─ansi-styles
+│  ├─anymatch
+│  ├─aproba
+│  ├─argparse
+│  │  └─lib
+│  │      ├─action
+│  │      │  ├─append
+│  │      │  └─store
+│  │      ├─argument
+│  │      └─help
+│  ├─aria-query
+│  │  └─lib
+│  │      └─etc
+│  │          └─roles
+│  │              ├─abstract
+│  │              ├─dpub
+│  │              └─literal
+│  ├─arr-diff
+│  ├─arr-flatten
+│  ├─arr-union
+│  ├─array-equal
+│  ├─array-filter
+│  │  └─test
+│  ├─array-flatten
+│  ├─array-includes
+│  │  └─test
+│  ├─array-map
+│  │  ├─example
+│  │  └─test
+│  ├─array-reduce
+│  │  ├─example
+│  │  └─test
+│  ├─array-union
+│  ├─array-uniq
+│  ├─array-unique
+│  ├─arrify
+│  ├─asap
+│  ├─asn1
+│  │  └─lib
+│  │      └─ber
+│  ├─asn1.js
+│  │  └─lib
+│  │      └─asn1
+│  │          ├─base
+│  │          ├─constants
+│  │          ├─decoders
+│  │          └─encoders
+│  ├─assert
+│  │  └─node_modules
+│  │      ├─inherits
+│  │      └─util
+│  │          ├─support
+│  │          └─test
+│  │              ├─browser
+│  │              └─node
+│  ├─assert-plus
+│  ├─assign-symbols
+│  ├─ast-types-flow
+│  │  └─lib
+│  ├─astral-regex
+│  ├─async
+│  │  ├─dist
+│  │  └─lib
+│  ├─async-each
+│  ├─async-limiter
+│  ├─asynckit
+│  │  └─lib
+│  ├─atob
+│  │  └─bin
+│  ├─autoprefixer
+│  │  ├─bin
+│  │  ├─data
+│  │  ├─lib
+│  │  │  └─hacks
+│  │  └─node_modules
+│  │      └─postcss-value-parser
+│  │          └─lib
+│  ├─aws-sign2
+│  ├─aws4
+│  ├─axobject-query
+│  │  └─lib
+│  │      └─etc
+│  │          └─objects
+│  ├─babel-code-frame
+│  │  ├─lib
+│  │  └─node_modules
+│  │      ├─ansi-regex
+│  │      ├─ansi-styles
+│  │      ├─chalk
+│  │      ├─js-tokens
+│  │      ├─strip-ansi
+│  │      └─supports-color
+│  ├─babel-eslint
+│  │  ├─lib
+│  │  │  └─babylon-to-espree
+│  │  └─node_modules
+│  │      └─eslint-scope
+│  │          └─lib
+│  ├─babel-extract-comments
+│  ├─babel-jest
+│  │  └─build
+│  ├─babel-loader
+│  │  └─lib
+│  ├─babel-plugin-dynamic-import-node
+│  │  └─lib
+│  ├─babel-plugin-istanbul
+│  │  └─lib
+│  ├─babel-plugin-jest-hoist
+│  │  └─build
+│  ├─babel-plugin-macros
+│  │  └─dist
+│  │      └─__tests__
+│  │          ├─fixtures
+│  │          │  ├─config
+│  │          │  └─path-replace-issue
+│  │          └─__snapshots__
+│  ├─babel-plugin-named-asset-import
+│  ├─babel-plugin-syntax-object-rest-spread
+│  │  └─lib
+│  ├─babel-plugin-transform-object-rest-spread
+│  │  └─lib
+│  ├─babel-plugin-transform-react-remove-prop-types
+│  │  ├─lib
+│  │  └─src
+│  ├─babel-preset-jest
+│  ├─babel-preset-react-app
+│  │  └─node_modules
+│  │      ├─.bin
+│  │      ├─@babel
+│  │      │  ├─plugin-proposal-object-rest-spread
+│  │      │  │  └─lib
+│  │      │  ├─plugin-transform-classes
+│  │      │  │  └─lib
+│  │      │  ├─plugin-transform-destructuring
+│  │      │  │  └─lib
+│  │      │  ├─plugin-transform-react-constant-elements
+│  │      │  │  └─lib
+│  │      │  └─preset-env
+│  │      │      ├─data
+│  │      │      └─lib
+│  │      │          └─polyfills
+│  │      │              ├─corejs2
+│  │      │              ├─corejs3
+│  │      │              └─regenerator
+│  │      ├─babel-plugin-dynamic-import-node
+│  │      │  └─lib
+│  │      └─semver
+│  │          └─bin
+│  ├─babel-runtime
+│  │  ├─core-js
+│  │  │  ├─array
+│  │  │  ├─error
+│  │  │  ├─json
+│  │  │  ├─math
+│  │  │  ├─number
+│  │  │  ├─object
+│  │  │  ├─reflect
+│  │  │  ├─regexp
+│  │  │  ├─string
+│  │  │  ├─symbol
+│  │  │  └─system
+│  │  ├─helpers
+│  │  ├─node_modules
+│  │  │  ├─core-js
+│  │  │  │  ├─build
+│  │  │  │  ├─client
+│  │  │  │  ├─core
+│  │  │  │  ├─es5
+│  │  │  │  ├─es6
+│  │  │  │  ├─es7
+│  │  │  │  ├─fn
+│  │  │  │  │  ├─array
+│  │  │  │  │  │  └─virtual
+│  │  │  │  │  ├─date
+│  │  │  │  │  ├─dom-collections
+│  │  │  │  │  ├─error
+│  │  │  │  │  ├─function
+│  │  │  │  │  │  └─virtual
+│  │  │  │  │  ├─json
+│  │  │  │  │  ├─map
+│  │  │  │  │  ├─math
+│  │  │  │  │  ├─number
+│  │  │  │  │  │  └─virtual
+│  │  │  │  │  ├─object
+│  │  │  │  │  ├─promise
+│  │  │  │  │  ├─reflect
+│  │  │  │  │  ├─regexp
+│  │  │  │  │  ├─set
+│  │  │  │  │  ├─string
+│  │  │  │  │  │  └─virtual
+│  │  │  │  │  ├─symbol
+│  │  │  │  │  ├─system
+│  │  │  │  │  ├─typed
+│  │  │  │  │  ├─weak-map
+│  │  │  │  │  └─weak-set
+│  │  │  │  ├─library
+│  │  │  │  │  ├─core
+│  │  │  │  │  ├─es5
+│  │  │  │  │  ├─es6
+│  │  │  │  │  ├─es7
+│  │  │  │  │  ├─fn
+│  │  │  │  │  │  ├─array
+│  │  │  │  │  │  │  └─virtual
+│  │  │  │  │  │  ├─date
+│  │  │  │  │  │  ├─dom-collections
+│  │  │  │  │  │  ├─error
+│  │  │  │  │  │  ├─function
+│  │  │  │  │  │  │  └─virtual
+│  │  │  │  │  │  ├─json
+│  │  │  │  │  │  ├─map
+│  │  │  │  │  │  ├─math
+│  │  │  │  │  │  ├─number
+│  │  │  │  │  │  │  └─virtual
+│  │  │  │  │  │  ├─object
+│  │  │  │  │  │  ├─promise
+│  │  │  │  │  │  ├─reflect
+│  │  │  │  │  │  ├─regexp
+│  │  │  │  │  │  ├─set
+│  │  │  │  │  │  ├─string
+│  │  │  │  │  │  │  └─virtual
+│  │  │  │  │  │  ├─symbol
+│  │  │  │  │  │  ├─system
+│  │  │  │  │  │  ├─typed
+│  │  │  │  │  │  ├─weak-map
+│  │  │  │  │  │  └─weak-set
+│  │  │  │  │  ├─modules
+│  │  │  │  │  ├─stage
+│  │  │  │  │  └─web
+│  │  │  │  ├─modules
+│  │  │  │  │  └─library
+│  │  │  │  ├─scripts
+│  │  │  │  ├─stage
+│  │  │  │  └─web
+│  │  │  └─regenerator-runtime
+│  │  └─regenerator
+│  ├─babylon
+│  │  ├─bin
+│  │  └─lib
+│  ├─balanced-match
+│  ├─base
+│  │  └─node_modules
+│  │      ├─define-property
+│  │      ├─is-accessor-descriptor
+│  │      ├─is-data-descriptor
+│  │      ├─is-descriptor
+│  │      └─kind-of
+│  ├─base64-js
+│  │  └─test
+│  ├─batch
+│  ├─bcrypt-pbkdf
+│  ├─big.js
+│  ├─binary-extensions
+│  ├─bluebird
+│  │  └─js
+│  │      ├─browser
+│  │      └─release
+│  ├─bn.js
+│  │  ├─lib
+│  │  └─util
+│  ├─body-parser
+│  │  ├─lib
+│  │  │  └─types
+│  │  └─node_modules
+│  │      ├─bytes
+│  │      ├─debug
+│  │      │  └─src
+│  │      ├─ms
+│  │      └─qs
+│  │          ├─dist
+│  │          ├─lib
+│  │          └─test
+│  ├─bonjour
+│  │  ├─lib
+│  │  └─test
+│  ├─boolbase
+│  ├─brace-expansion
+│  ├─braces
+│  │  ├─lib
+│  │  └─node_modules
+│  │      └─extend-shallow
+│  ├─brorand
+│  │  └─test
+│  ├─browser-process-hrtime
+│  ├─browser-resolve
+│  │  └─node_modules
+│  │      └─resolve
+│  │          ├─example
+│  │          ├─lib
+│  │          └─test
+│  │              ├─dotdot
+│  │              │  └─abc
+│  │              ├─module_dir
+│  │              │  ├─xmodules
+│  │              │  │  └─aaa
+│  │              │  ├─ymodules
+│  │              │  │  └─aaa
+│  │              │  └─zmodules
+│  │              │      └─bbb
+│  │              ├─node_path
+│  │              │  ├─x
+│  │              │  │  ├─aaa
+│  │              │  │  └─ccc
+│  │              │  └─y
+│  │              │      ├─bbb
+│  │              │      └─ccc
+│  │              ├─pathfilter
+│  │              │  └─deep_ref
+│  │              │      └─node_modules
+│  │              │          └─deep
+│  │              │              └─deeper
+│  │              ├─precedence
+│  │              │  ├─aaa
+│  │              │  └─bbb
+│  │              ├─resolver
+│  │              │  ├─bar
+│  │              │  │  └─node_modules
+│  │              │  │      └─foo
+│  │              │  ├─baz
+│  │              │  ├─biz
+│  │              │  │  └─node_modules
+│  │              │  │      ├─garply
+│  │              │  │      │  └─lib
+│  │              │  │      ├─grux
+│  │              │  │      └─tiv
+│  │              │  ├─incorrect_main
+│  │              │  ├─other_path
+│  │              │  │  └─lib
+│  │              │  ├─punycode
+│  │              │  │  └─node_modules
+│  │              │  │      └─punycode
+│  │              │  ├─quux
+│  │              │  │  └─foo
+│  │              │  └─without_basedir
+│  │              │      └─node_modules
+│  │              └─subdirs
+│  │                  └─node_modules
+│  │                      └─a
+│  │                          └─b
+│  │                              └─c
+│  ├─browserify-aes
+│  │  └─modes
+│  ├─browserify-cipher
+│  ├─browserify-des
+│  ├─browserify-rsa
+│  ├─browserify-sign
+│  │  └─browser
+│  ├─browserify-zlib
+│  │  ├─lib
+│  │  └─src
+│  ├─browserslist
+│  ├─bser
+│  ├─buffer
+│  │  ├─bin
+│  │  └─test
+│  │      └─node
+│  ├─buffer-from
+│  ├─buffer-indexof
+│  │  └─test
+│  ├─buffer-xor
+│  │  └─test
+│  ├─builtin-status-codes
+│  ├─bytes
+│  ├─cacache
+│  │  ├─lib
+│  │  │  ├─content
+│  │  │  └─util
+│  │  └─locales
+│  ├─cache-base
+│  ├─call-me-maybe
+│  │  └─test
+│  ├─caller-callsite
+│  ├─caller-path
+│  ├─callsites
+│  ├─camel-case
+│  ├─camelcase
+│  ├─caniuse-api
+│  │  └─dist
+│  ├─caniuse-lite
+│  │  ├─data
+│  │  │  ├─features
+│  │  │  └─regions
+│  │  └─dist
+│  │      ├─lib
+│  │      └─unpacker
+│  ├─capture-exit
+│  ├─case-sensitive-paths-webpack-plugin
+│  ├─caseless
+│  ├─chalk
+│  │  └─types
+│  ├─chardet
+│  │  └─encoding
+│  ├─chokidar
+│  │  ├─lib
+│  │  ├─node_modules
+│  │  │  └─normalize-path
+│  │  └─types
+│  ├─chownr
+│  ├─chrome-trace-event
+│  │  └─dist
+│  ├─ci-info
+│  ├─cipher-base
+│  ├─class-utils
+│  │  └─node_modules
+│  │      └─define-property
+│  ├─clean-css
+│  │  ├─lib
+│  │  │  ├─optimizer
+│  │  │  │  ├─level-0
+│  │  │  │  ├─level-1
+│  │  │  │  └─level-2
+│  │  │  │      └─properties
+│  │  │  ├─options
+│  │  │  ├─reader
+│  │  │  ├─tokenizer
+│  │  │  ├─utils
+│  │  │  └─writer
+│  │  └─node_modules
+│  │      └─source-map
+│  │          ├─dist
+│  │          └─lib
+│  ├─cli-cursor
+│  ├─cli-width
+│  ├─cliui
+│  ├─clone-deep
+│  ├─co
+│  ├─coa
+│  │  └─lib
+│  ├─code-point-at
+│  ├─collection-visit
+│  ├─color
+│  ├─color-convert
+│  ├─color-name
+│  ├─color-string
+│  ├─combined-stream
+│  │  └─lib
+│  ├─commander
+│  │  └─typings
+│  ├─common-tags
+│  │  ├─dist
+│  │  ├─es
+│  │  │  ├─codeBlock
+│  │  │  ├─commaLists
+│  │  │  ├─commaListsAnd
+│  │  │  ├─commaListsOr
+│  │  │  ├─html
+│  │  │  ├─inlineArrayTransformer
+│  │  │  ├─inlineLists
+│  │  │  ├─oneLine
+│  │  │  ├─oneLineCommaLists
+│  │  │  ├─oneLineCommaListsAnd
+│  │  │  ├─oneLineCommaListsOr
+│  │  │  ├─oneLineInlineLists
+│  │  │  ├─oneLineTrim
+│  │  │  ├─removeNonPrintingValuesTransformer
+│  │  │  ├─replaceResultTransformer
+│  │  │  ├─replaceStringTransformer
+│  │  │  ├─replaceSubstitutionTransformer
+│  │  │  ├─safeHtml
+│  │  │  ├─source
+│  │  │  ├─splitStringTransformer
+│  │  │  ├─stripIndent
+│  │  │  ├─stripIndents
+│  │  │  ├─stripIndentTransformer
+│  │  │  ├─TemplateTag
+│  │  │  ├─trimResultTransformer
+│  │  │  └─utils
+│  │  │      └─readFromFixture
+│  │  └─lib
+│  │      ├─codeBlock
+│  │      ├─commaLists
+│  │      ├─commaListsAnd
+│  │      ├─commaListsOr
+│  │      ├─html
+│  │      ├─inlineArrayTransformer
+│  │      ├─inlineLists
+│  │      ├─oneLine
+│  │      ├─oneLineCommaLists
+│  │      ├─oneLineCommaListsAnd
+│  │      ├─oneLineCommaListsOr
+│  │      ├─oneLineInlineLists
+│  │      ├─oneLineTrim
+│  │      ├─removeNonPrintingValuesTransformer
+│  │      ├─replaceResultTransformer
+│  │      ├─replaceStringTransformer
+│  │      ├─replaceSubstitutionTransformer
+│  │      ├─safeHtml
+│  │      ├─source
+│  │      ├─splitStringTransformer
+│  │      ├─stripIndent
+│  │      ├─stripIndents
+│  │      ├─stripIndentTransformer
+│  │      ├─TemplateTag
+│  │      ├─trimResultTransformer
+│  │      └─utils
+│  │          └─readFromFixture
+│  ├─commondir
+│  │  ├─example
+│  │  └─test
+│  ├─component-emitter
+│  ├─compressible
+│  ├─compression
+│  │  └─node_modules
+│  │      ├─debug
+│  │      │  └─src
+│  │      └─ms
+│  ├─concat-map
+│  │  ├─example
+│  │  └─test
+│  ├─concat-stream
+│  ├─confusing-browser-globals
+│  ├─connect-history-api-fallback
+│  │  └─lib
+│  ├─console-browserify
+│  │  └─test
+│  │      └─static
+│  ├─constants-browserify
+│  ├─contains-path
+│  ├─content-disposition
+│  ├─content-type
+│  ├─convert-source-map
+│  ├─cookie
+│  ├─cookie-signature
+│  ├─copy-concurrently
+│  ├─copy-descriptor
+│  ├─core-js
+│  │  ├─es
+│  │  │  ├─array
+│  │  │  │  └─virtual
+│  │  │  ├─array-buffer
+│  │  │  ├─data-view
+│  │  │  ├─date
+│  │  │  ├─function
+│  │  │  │  └─virtual
+│  │  │  ├─instance
+│  │  │  ├─json
+│  │  │  ├─map
+│  │  │  ├─math
+│  │  │  ├─number
+│  │  │  │  └─virtual
+│  │  │  ├─object
+│  │  │  ├─promise
+│  │  │  ├─reflect
+│  │  │  ├─regexp
+│  │  │  ├─set
+│  │  │  ├─string
+│  │  │  │  └─virtual
+│  │  │  ├─symbol
+│  │  │  ├─typed-array
+│  │  │  ├─weak-map
+│  │  │  └─weak-set
+│  │  ├─features
+│  │  │  ├─array
+│  │  │  │  └─virtual
+│  │  │  ├─array-buffer
+│  │  │  ├─data-view
+│  │  │  ├─date
+│  │  │  ├─dom-collections
+│  │  │  ├─function
+│  │  │  │  └─virtual
+│  │  │  ├─instance
+│  │  │  ├─json
+│  │  │  ├─map
+│  │  │  ├─math
+│  │  │  ├─number
+│  │  │  │  └─virtual
+│  │  │  ├─object
+│  │  │  ├─observable
+│  │  │  ├─promise
+│  │  │  ├─reflect
+│  │  │  ├─regexp
+│  │  │  ├─set
+│  │  │  ├─string
+│  │  │  │  └─virtual
+│  │  │  ├─symbol
+│  │  │  ├─typed-array
+│  │  │  ├─url
+│  │  │  ├─url-search-params
+│  │  │  ├─weak-map
+│  │  │  └─weak-set
+│  │  ├─internals
+│  │  ├─modules
+│  │  ├─proposals
+│  │  ├─stable
+│  │  │  ├─array
+│  │  │  │  └─virtual
+│  │  │  ├─array-buffer
+│  │  │  ├─data-view
+│  │  │  ├─date
+│  │  │  ├─dom-collections
+│  │  │  ├─function
+│  │  │  │  └─virtual
+│  │  │  ├─instance
+│  │  │  ├─json
+│  │  │  ├─map
+│  │  │  ├─math
+│  │  │  ├─number
+│  │  │  │  └─virtual
+│  │  │  ├─object
+│  │  │  ├─promise
+│  │  │  ├─reflect
+│  │  │  ├─regexp
+│  │  │  ├─set
+│  │  │  ├─string
+│  │  │  │  └─virtual
+│  │  │  ├─symbol
+│  │  │  ├─typed-array
+│  │  │  ├─url
+│  │  │  ├─url-search-params
+│  │  │  ├─weak-map
+│  │  │  └─weak-set
+│  │  ├─stage
+│  │  └─web
+│  ├─core-js-compat
+│  │  └─node_modules
+│  │      ├─.bin
+│  │      └─semver
+│  │          └─bin
+│  ├─core-js-pure
+│  │  ├─es
+│  │  │  ├─array
+│  │  │  │  └─virtual
+│  │  │  ├─array-buffer
+│  │  │  ├─data-view
+│  │  │  ├─date
+│  │  │  ├─function
+│  │  │  │  └─virtual
+│  │  │  ├─instance
+│  │  │  ├─json
+│  │  │  ├─map
+│  │  │  ├─math
+│  │  │  ├─number
+│  │  │  │  └─virtual
+│  │  │  ├─object
+│  │  │  ├─promise
+│  │  │  ├─reflect
+│  │  │  ├─regexp
+│  │  │  ├─set
+│  │  │  ├─string
+│  │  │  │  └─virtual
+│  │  │  ├─symbol
+│  │  │  ├─typed-array
+│  │  │  ├─weak-map
+│  │  │  └─weak-set
+│  │  ├─features
+│  │  │  ├─array
+│  │  │  │  └─virtual
+│  │  │  ├─array-buffer
+│  │  │  ├─data-view
+│  │  │  ├─date
+│  │  │  ├─dom-collections
+│  │  │  ├─function
+│  │  │  │  └─virtual
+│  │  │  ├─instance
+│  │  │  ├─json
+│  │  │  ├─map
+│  │  │  ├─math
+│  │  │  ├─number
+│  │  │  │  └─virtual
+│  │  │  ├─object
+│  │  │  ├─observable
+│  │  │  ├─promise
+│  │  │  ├─reflect
+│  │  │  ├─regexp
+│  │  │  ├─set
+│  │  │  ├─string
+│  │  │  │  └─virtual
+│  │  │  ├─symbol
+│  │  │  ├─typed-array
+│  │  │  ├─url
+│  │  │  ├─url-search-params
+│  │  │  ├─weak-map
+│  │  │  └─weak-set
+│  │  ├─internals
+│  │  ├─modules
+│  │  ├─proposals
+│  │  ├─scripts
+│  │  ├─stable
+│  │  │  ├─array
+│  │  │  │  └─virtual
+│  │  │  ├─array-buffer
+│  │  │  ├─data-view
+│  │  │  ├─date
+│  │  │  ├─dom-collections
+│  │  │  ├─function
+│  │  │  │  └─virtual
+│  │  │  ├─instance
+│  │  │  ├─json
+│  │  │  ├─map
+│  │  │  ├─math
+│  │  │  ├─number
+│  │  │  │  └─virtual
+│  │  │  ├─object
+│  │  │  ├─promise
+│  │  │  ├─reflect
+│  │  │  ├─regexp
+│  │  │  ├─set
+│  │  │  ├─string
+│  │  │  │  └─virtual
+│  │  │  ├─symbol
+│  │  │  ├─typed-array
+│  │  │  ├─url
+│  │  │  ├─url-search-params
+│  │  │  ├─weak-map
+│  │  │  └─weak-set
+│  │  ├─stage
+│  │  └─web
+│  ├─core-util-is
+│  │  └─lib
+│  ├─cosmiconfig
+│  │  └─dist
+│  ├─create-ecdh
+│  ├─create-hash
+│  ├─create-hmac
+│  ├─cross-spawn
+│  │  ├─lib
+│  │  │  └─util
+│  │  └─node_modules
+│  │      ├─.bin
+│  │      └─semver
+│  │          └─bin
+│  ├─crypto-browserify
+│  │  ├─example
+│  │  └─test
+│  │      └─node
+│  ├─css-blank-pseudo
+│  ├─css-color-names
+│  ├─css-declaration-sorter
+│  │  ├─orders
+│  │  └─src
+│  ├─css-has-pseudo
+│  │  └─node_modules
+│  │      ├─.bin
+│  │      ├─cssesc
+│  │      │  ├─bin
+│  │      │  └─man
+│  │      └─postcss-selector-parser
+│  │          └─dist
+│  │              ├─selectors
+│  │              └─util
+│  ├─css-loader
+│  │  ├─dist
+│  │  │  ├─plugins
+│  │  │  └─runtime
+│  │  └─node_modules
+│  │      └─normalize-path
+│  ├─css-prefers-color-scheme
+│  ├─css-select
+│  │  └─lib
+│  ├─css-select-base-adapter
+│  │  └─test
+│  ├─css-tree
+│  │  ├─data
+│  │  ├─dist
+│  │  └─lib
+│  │      ├─common
+│  │      ├─convertor
+│  │      ├─generator
+│  │      ├─lexer
+│  │      │  └─grammar
+│  │      ├─parser
+│  │      ├─syntax
+│  │      │  ├─atrule
+│  │      │  ├─config
+│  │      │  ├─function
+│  │      │  ├─node
+│  │      │  ├─pseudo
+│  │      │  │  └─common
+│  │      │  └─scope
+│  │      ├─tokenizer
+│  │      ├─utils
+│  │      └─walker
+│  ├─css-unit-converter
+│  ├─css-what
+│  ├─cssdb
+│  ├─cssesc
+│  │  ├─bin
+│  │  └─man
+│  ├─cssnano
+│  │  └─dist
+│  ├─cssnano-preset-default
+│  │  └─dist
+│  ├─cssnano-util-get-arguments
+│  │  └─dist
+│  ├─cssnano-util-get-match
+│  │  └─dist
+│  ├─cssnano-util-raw-cache
+│  │  └─dist
+│  ├─cssnano-util-same-parent
+│  │  └─dist
+│  ├─csso
+│  │  ├─dist
+│  │  ├─lib
+│  │  │  ├─clean
+│  │  │  ├─replace
+│  │  │  │  ├─atrule
+│  │  │  │  └─property
+│  │  │  └─restructure
+│  │  │      └─prepare
+│  │  └─node_modules
+│  │      ├─css-tree
+│  │      │  ├─data
+│  │      │  ├─dist
+│  │      │  ├─docs
+│  │      │  └─lib
+│  │      │      ├─convertor
+│  │      │      ├─generator
+│  │      │      ├─lexer
+│  │      │      │  └─grammar
+│  │      │      ├─parser
+│  │      │      ├─syntax
+│  │      │      │  ├─atrule
+│  │      │      │  ├─config
+│  │      │      │  ├─function
+│  │      │      │  ├─node
+│  │      │      │  ├─pseudo
+│  │      │      │  │  └─common
+│  │      │      │  └─scope
+│  │      │      ├─tokenizer
+│  │      │      ├─utils
+│  │      │      └─walker
+│  │      └─mdn-data
+│  │          ├─api
+│  │          ├─css
+│  │          └─l10n
+│  ├─cssom
+│  │  └─lib
+│  ├─cssstyle
+│  │  ├─lib
+│  │  │  ├─properties
+│  │  │  └─utils
+│  │  ├─scripts
+│  │  └─tests
+│  ├─cyclist
+│  ├─damerau-levenshtein
+│  │  ├─scripts
+│  │  └─test
+│  ├─dashdash
+│  │  ├─etc
+│  │  └─lib
+│  ├─data-urls
+│  │  ├─lib
+│  │  └─node_modules
+│  │      └─whatwg-url
+│  │          └─lib
+│  ├─date-now
+│  │  └─test
+│  │      └─static
+│  ├─debug
+│  │  ├─dist
+│  │  └─src
+│  ├─decamelize
+│  ├─decode-uri-component
+│  ├─deep-equal
+│  │  ├─example
+│  │  ├─lib
+│  │  └─test
+│  ├─deep-is
+│  │  ├─example
+│  │  └─test
+│  ├─default-gateway
+│  ├─define-properties
+│  │  └─test
+│  ├─define-property
+│  │  └─node_modules
+│  │      ├─is-accessor-descriptor
+│  │      ├─is-data-descriptor
+│  │      ├─is-descriptor
+│  │      └─kind-of
+│  ├─del
+│  │  └─node_modules
+│  │      └─globby
+│  │          └─node_modules
+│  │              └─pify
+│  ├─delayed-stream
+│  │  └─lib
+│  ├─depd
+│  │  └─lib
+│  │      ├─browser
+│  │      └─compat
+│  ├─des.js
+│  │  ├─lib
+│  │  │  └─des
+│  │  └─test
+│  ├─destroy
+│  ├─detect-newline
+│  ├─detect-node
+│  ├─detect-port-alt
+│  │  ├─.vscode
+│  │  ├─bin
+│  │  ├─lib
+│  │  └─node_modules
+│  │      ├─debug
+│  │      │  └─src
+│  │      └─ms
+│  ├─diff-sequences
+│  │  ├─build
+│  │  └─perf
+│  ├─diffie-hellman
+│  │  └─lib
+│  ├─dir-glob
+│  ├─dns-equal
+│  ├─dns-packet
+│  ├─dns-txt
+│  ├─doctrine
+│  │  └─lib
+│  ├─dom-converter
+│  │  └─lib
+│  ├─dom-serializer
+│  │  └─node_modules
+│  │      └─domelementtype
+│  │          └─lib
+│  ├─domain-browser
+│  │  └─source
+│  ├─domelementtype
+│  ├─domexception
+│  │  └─lib
+│  ├─domhandler
+│  │  ├─lib
+│  │  └─test
+│  │      └─cases
+│  ├─domutils
+│  │  ├─lib
+│  │  └─test
+│  │      └─tests
+│  ├─dot-prop
+│  ├─dotenv
+│  │  └─lib
+│  ├─dotenv-expand
+│  │  └─lib
+│  ├─duplexer
+│  │  └─test
+│  ├─duplexify
+│  ├─ecc-jsbn
+│  │  └─lib
+│  ├─ee-first
+│  ├─electron-to-chromium
+│  ├─elliptic
+│  │  └─lib
+│  │      └─elliptic
+│  │          ├─curve
+│  │          ├─ec
+│  │          ├─eddsa
+│  │          └─precomputed
+│  ├─emoji-regex
+│  │  └─es2015
+│  ├─emojis-list
+│  ├─encodeurl
+│  ├─end-of-stream
+│  ├─enhanced-resolve
+│  │  └─lib
+│  ├─entities
+│  │  └─lib
+│  │      ├─maps
+│  │      └─src
+│  ├─errno
+│  ├─error-ex
+│  ├─es-abstract
+│  │  ├─helpers
+│  │  ├─operations
+│  │  └─test
+│  │      └─helpers
+│  ├─es-to-primitive
+│  │  ├─helpers
+│  │  └─test
+│  ├─escape-html
+│  ├─escape-string-regexp
+│  ├─escodegen
+│  │  ├─bin
+│  │  └─node_modules
+│  │      ├─.bin
+│  │      ├─esprima
+│  │      │  ├─bin
+│  │      │  └─dist
+│  │      └─source-map
+│  │          ├─dist
+│  │          └─lib
+│  ├─eslint
+│  │  ├─bin
+│  │  ├─conf
+│  │  ├─lib
+│  │  │  ├─code-path-analysis
+│  │  │  ├─config
+│  │  │  ├─formatters
+│  │  │  ├─rules
+│  │  │  ├─testers
+│  │  │  ├─token-store
+│  │  │  └─util
+│  │  │      ├─patterns
+│  │  │      └─unicode
+│  │  ├─messages
+│  │  └─node_modules
+│  │      ├─.bin
+│  │      ├─import-fresh
+│  │      ├─resolve-from
+│  │      └─semver
+│  │          └─bin
+│  ├─eslint-config-react-app
+│  ├─eslint-import-resolver-node
+│  │  └─node_modules
+│  │      ├─debug
+│  │      │  └─src
+│  │      └─ms
+│  ├─eslint-loader
+│  ├─eslint-module-utils
+│  │  └─node_modules
+│  │      ├─debug
+│  │      │  └─src
+│  │      ├─find-up
+│  │      ├─locate-path
+│  │      ├─ms
+│  │      ├─p-limit
+│  │      ├─p-locate
+│  │      ├─p-try
+│  │      └─pkg-dir
+│  ├─eslint-plugin-flowtype
+│  │  ├─bin
+│  │  └─dist
+│  │      ├─configs
+│  │      ├─rules
+│  │      │  ├─arrayStyle
+│  │      │  └─typeColonSpacing
+│  │      └─utilities
+│  ├─eslint-plugin-import
+│  │  ├─config
+│  │  ├─lib
+│  │  │  ├─core
+│  │  │  └─rules
+│  │  ├─memo-parser
+│  │  └─node_modules
+│  │      ├─debug
+│  │      │  └─src
+│  │      ├─doctrine
+│  │      │  └─lib
+│  │      ├─find-up
+│  │      ├─load-json-file
+│  │      ├─locate-path
+│  │      ├─ms
+│  │      ├─p-limit
+│  │      ├─p-locate
+│  │      ├─p-try
+│  │      ├─parse-json
+│  │      │  └─vendor
+│  │      ├─path-type
+│  │      ├─pify
+│  │      ├─read-pkg
+│  │      └─read-pkg-up
+│  ├─eslint-plugin-jsx-a11y
+│  │  ├─docs
+│  │  │  └─rules
+│  │  ├─lib
+│  │  │  ├─rules
+│  │  │  └─util
+│  │  │      ├─attributes
+│  │  │      └─implicitRoles
+│  │  ├─scripts
+│  │  │  └─boilerplate
+│  │  ├─__mocks__
+│  │  └─__tests__
+│  │      ├─src
+│  │      │  ├─rules
+│  │      │  └─util
+│  │      │      └─implicitRoles
+│  │      └─__util__
+│  ├─eslint-plugin-react
+│  │  ├─lib
+│  │  │  ├─rules
+│  │  │  └─util
+│  │  └─node_modules
+│  │      └─doctrine
+│  │          └─lib
+│  ├─eslint-plugin-react-hooks
+│  │  └─cjs
+│  ├─eslint-scope
+│  │  └─lib
+│  ├─eslint-utils
+│  ├─eslint-visitor-keys
+│  │  └─lib
+│  ├─espree
+│  │  └─lib
+│  ├─esprima
+│  │  ├─bin
+│  │  └─dist
+│  ├─esquery
+│  ├─esrecurse
+│  ├─estraverse
+│  ├─esutils
+│  │  └─lib
+│  ├─etag
+│  ├─eventemitter3
+│  │  └─umd
+│  ├─events
+│  │  └─tests
+│  ├─eventsource
+│  │  ├─example
+│  │  └─lib
+│  ├─evp_bytestokey
+│  ├─exec-sh
+│  │  ├─example
+│  │  ├─lib
+│  │  └─test
+│  ├─execa
+│  │  └─lib
+│  ├─exit
+│  │  ├─lib
+│  │  └─test
+│  │      └─fixtures
+│  ├─expand-brackets
+│  │  ├─lib
+│  │  └─node_modules
+│  │      ├─debug
+│  │      │  └─src
+│  │      ├─define-property
+│  │      ├─extend-shallow
+│  │      └─ms
+│  ├─expect
+│  │  ├─build
+│  │  └─build-es5
+│  ├─express
+│  │  ├─lib
+│  │  │  ├─middleware
+│  │  │  └─router
+│  │  └─node_modules
+│  │      ├─array-flatten
+│  │      ├─debug
+│  │      │  └─src
+│  │      ├─ms
+│  │      └─qs
+│  │          ├─dist
+│  │          ├─lib
+│  │          └─test
+│  ├─extend
+│  ├─extend-shallow
+│  │  └─node_modules
+│  │      └─is-extendable
+│  ├─external-editor
+│  │  └─main
+│  │      └─errors
+│  ├─extglob
+│  │  ├─lib
+│  │  └─node_modules
+│  │      ├─define-property
+│  │      ├─extend-shallow
+│  │      ├─is-accessor-descriptor
+│  │      ├─is-data-descriptor
+│  │      ├─is-descriptor
+│  │      └─kind-of
+│  ├─extsprintf
+│  │  └─lib
+│  ├─fast-deep-equal
+│  ├─fast-glob
+│  │  ├─out
+│  │  │  ├─adapters
+│  │  │  ├─managers
+│  │  │  ├─providers
+│  │  │  │  └─filters
+│  │  │  ├─types
+│  │  │  └─utils
+│  │  └─package
+│  │      └─out
+│  │          ├─adapters
+│  │          ├─managers
+│  │          ├─providers
+│  │          │  └─filters
+│  │          ├─types
+│  │          └─utils
+│  ├─fast-json-stable-stringify
+│  │  ├─benchmark
+│  │  ├─example
+│  │  └─test
+│  ├─fast-levenshtein
+│  ├─faye-websocket
+│  │  └─lib
+│  │      └─faye
+│  │          └─websocket
+│  │              └─api
+│  ├─fb-watchman
+│  ├─figgy-pudding
+│  ├─figures
+│  ├─file-entry-cache
+│  ├─file-loader
+│  │  └─dist
+│  ├─filesize
+│  │  └─lib
+│  ├─fill-range
+│  │  └─node_modules
+│  │      └─extend-shallow
+│  ├─finalhandler
+│  │  └─node_modules
+│  │      ├─debug
+│  │      │  └─src
+│  │      └─ms
+│  ├─find-cache-dir
+│  ├─find-up
+│  ├─flat-cache
+│  ├─flatted
+│  │  ├─.github
+│  │  ├─cjs
+│  │  └─esm
+│  ├─flatten
+│  ├─flush-write-stream
+│  ├─follow-redirects
+│  │  └─node_modules
+│  │      └─debug
+│  │          ├─dist
+│  │          └─src
+│  ├─for-in
+│  ├─for-own
+│  ├─forever-agent
+│  ├─fork-ts-checker-webpack-plugin
+│  │  ├─lib
+│  │  │  └─formatter
+│  │  └─node_modules
+│  │      ├─.bin
+│  │      └─semver
+│  │          └─bin
+│  ├─form-data
+│  │  └─lib
+│  ├─forwarded
+│  ├─fragment-cache
+│  ├─fresh
+│  ├─from2
+│  ├─fs-extra
+│  │  └─lib
+│  │      ├─copy
+│  │      ├─copy-sync
+│  │      ├─empty
+│  │      ├─ensure
+│  │      ├─fs
+│  │      ├─json
+│  │      ├─mkdirs
+│  │      ├─move
+│  │      ├─move-sync
+│  │      ├─output
+│  │      ├─path-exists
+│  │      ├─remove
+│  │      └─util
+│  ├─fs-write-stream-atomic
+│  │  └─test
+│  ├─fs.realpath
+│  ├─function-bind
+│  │  └─test
+│  ├─functional-red-black-tree
+│  │  ├─bench
+│  │  └─test
+│  ├─get-caller-file
+│  ├─get-own-enumerable-property-symbols
+│  │  └─lib
+│  ├─get-stream
+│  ├─get-value
+│  ├─getpass
+│  │  └─lib
+│  ├─glob
+│  ├─glob-parent
+│  │  └─node_modules
+│  │      └─is-glob
+│  ├─glob-to-regexp
+│  ├─global-modules
+│  ├─global-prefix
+│  │  └─node_modules
+│  │      └─kind-of
+│  ├─globals
+│  ├─globby
+│  │  └─node_modules
+│  │      ├─ignore
+│  │      └─slash
+│  ├─graceful-fs
+│  ├─growly
+│  │  ├─example
+│  │  └─lib
+│  ├─gzip-size
+│  ├─handle-thing
+│  │  ├─lib
+│  │  └─test
+│  ├─handlebars
+│  │  ├─bin
+│  │  ├─dist
+│  │  │  ├─amd
+│  │  │  │  └─handlebars
+│  │  │  │      ├─compiler
+│  │  │  │      ├─decorators
+│  │  │  │      └─helpers
+│  │  │  └─cjs
+│  │  │      └─handlebars
+│  │  │          ├─compiler
+│  │  │          ├─decorators
+│  │  │          └─helpers
+│  │  ├─lib
+│  │  │  └─handlebars
+│  │  │      ├─compiler
+│  │  │      ├─decorators
+│  │  │      └─helpers
+│  │  ├─node_modules
+│  │  │  └─source-map
+│  │  │      ├─dist
+│  │  │      └─lib
+│  │  └─types
+│  ├─har-schema
+│  │  └─lib
+│  ├─har-validator
+│  │  └─lib
+│  ├─harmony-reflect
+│  ├─has
+│  │  ├─src
+│  │  └─test
+│  ├─has-ansi
+│  │  └─node_modules
+│  │      └─ansi-regex
+│  ├─has-flag
+│  ├─has-symbols
+│  │  └─test
+│  │      └─shams
+│  ├─has-value
+│  ├─has-values
+│  │  └─node_modules
+│  │      └─kind-of
+│  ├─hash-base
+│  ├─hash.js
+│  │  ├─lib
+│  │  │  └─hash
+│  │  │      └─sha
+│  │  └─test
+│  ├─he
+│  │  ├─bin
+│  │  └─man
+│  ├─hex-color-regex
+│  ├─hmac-drbg
+│  │  ├─lib
+│  │  └─test
+│  │      └─fixtures
+│  ├─hosted-git-info
+│  ├─hpack.js
+│  │  ├─bin
+│  │  ├─lib
+│  │  │  └─hpack
+│  │  ├─test
+│  │  └─tools
+│  ├─hsl-regex
+│  │  └─test
+│  ├─hsla-regex
+│  │  └─test
+│  ├─html-comment-regex
+│  ├─html-encoding-sniffer
+│  │  └─lib
+│  ├─html-entities
+│  │  └─lib
+│  ├─html-minifier
+│  │  ├─node_modules
+│  │  │  └─commander
+│  │  │      └─typings
+│  │  └─src
+│  ├─html-webpack-plugin
+│  │  └─lib
+│  ├─htmlparser2
+│  │  ├─lib
+│  │  └─node_modules
+│  │      ├─entities
+│  │      │  ├─lib
+│  │      │  ├─maps
+│  │      │  └─test
+│  │      └─readable-stream
+│  │          └─lib
+│  │              └─internal
+│  │                  └─streams
+│  ├─http-deceiver
+│  │  ├─lib
+│  │  └─test
+│  ├─http-errors
+│  │  └─node_modules
+│  │      └─inherits
+│  ├─http-parser-js
+│  ├─http-proxy
+│  │  ├─.nyc_output
+│  │  ├─coverage
+│  │  │  └─lcov-report
+│  │  │      ├─http-proxy
+│  │  │      │  └─passes
+│  │  │      └─lib
+│  │  │          └─http-proxy
+│  │  │              └─passes
+│  │  └─lib
+│  │      └─http-proxy
+│  │          └─passes
+│  ├─http-proxy-middleware
+│  │  └─lib
+│  ├─http-signature
+│  │  └─lib
+│  ├─https-browserify
+│  ├─iconv-lite
+│  │  ├─encodings
+│  │  │  └─tables
+│  │  └─lib
+│  ├─icss-replace-symbols
+│  │  └─lib
+│  ├─icss-utils
+│  │  └─lib
+│  ├─identity-obj-proxy
+│  │  └─src
+│  │      ├─test-redirections
+│  │      └─__tests__
+│  ├─ieee754
+│  ├─iferr
+│  │  └─test
+│  ├─ignore
+│  ├─immer
+│  │  └─dist
+│  ├─import-cwd
+│  ├─import-fresh
+│  ├─import-from
+│  ├─import-local
+│  │  └─fixtures
+│  ├─imurmurhash
+│  ├─indexes-of
+│  ├─inflight
+│  ├─inherits
+│  ├─ini
+│  ├─inquirer
+│  │  ├─lib
+│  │  │  ├─objects
+│  │  │  ├─prompts
+│  │  │  ├─ui
+│  │  │  └─utils
+│  │  └─node_modules
+│  │      ├─ansi-regex
+│  │      └─strip-ansi
+│  ├─internal-ip
+│  ├─invariant
+│  ├─invert-kv
+│  ├─ip
+│  │  ├─lib
+│  │  └─test
+│  ├─ip-regex
+│  ├─ipaddr.js
+│  │  └─lib
+│  ├─is-absolute-url
+│  ├─is-accessor-descriptor
+│  ├─is-arrayish
+│  ├─is-binary-path
+│  ├─is-buffer
+│  │  └─test
+│  ├─is-callable
+│  ├─is-ci
+│  ├─is-color-stop
+│  │  ├─lib
+│  │  ├─test
+│  │  └─util
+│  ├─is-data-descriptor
+│  ├─is-date-object
+│  ├─is-descriptor
+│  │  └─node_modules
+│  │      └─kind-of
+│  ├─is-directory
+│  ├─is-extendable
+│  ├─is-extglob
+│  ├─is-fullwidth-code-point
+│  ├─is-generator-fn
+│  ├─is-glob
+│  ├─is-number
+│  ├─is-obj
+│  ├─is-path-cwd
+│  ├─is-path-in-cwd
+│  ├─is-path-inside
+│  ├─is-plain-object
+│  ├─is-promise
+│  ├─is-regex
+│  ├─is-regexp
+│  ├─is-resolvable
+│  ├─is-root
+│  ├─is-stream
+│  ├─is-svg
+│  ├─is-symbol
+│  │  └─test
+│  ├─is-typedarray
+│  ├─is-windows
+│  ├─is-wsl
+│  ├─isarray
+│  ├─isexe
+│  │  └─test
+│  ├─isobject
+│  ├─isstream
+│  ├─istanbul-lib-coverage
+│  │  └─lib
+│  ├─istanbul-lib-instrument
+│  │  └─dist
+│  ├─istanbul-lib-report
+│  │  ├─lib
+│  │  └─node_modules
+│  │      └─supports-color
+│  ├─istanbul-lib-source-maps
+│  │  ├─lib
+│  │  └─node_modules
+│  │      └─source-map
+│  │          ├─dist
+│  │          └─lib
+│  ├─istanbul-reports
+│  │  └─lib
+│  │      ├─clover
+│  │      ├─cobertura
+│  │      ├─html
+│  │      │  ├─assets
+│  │      │  │  └─vendor
+│  │      │  └─templates
+│  │      ├─json
+│  │      ├─json-summary
+│  │      ├─lcov
+│  │      ├─lcovonly
+│  │      ├─none
+│  │      ├─teamcity
+│  │      ├─text
+│  │      ├─text-lcov
+│  │      └─text-summary
+│  ├─jest
+│  │  ├─bin
+│  │  ├─build
+│  │  └─node_modules
+│  │      ├─.bin
+│  │      └─jest-cli
+│  │          ├─bin
+│  │          └─build
+│  │              ├─cli
+│  │              └─init
+│  ├─jest-changed-files
+│  │  └─build
+│  ├─jest-config
+│  │  ├─build
+│  │  │  └─vendor
+│  │  └─node_modules
+│  │      └─jest-resolve
+│  │          └─build
+│  ├─jest-diff
+│  │  └─build
+│  ├─jest-docblock
+│  │  └─build
+│  ├─jest-each
+│  │  └─build
+│  │      └─table
+│  ├─jest-environment-jsdom
+│  │  └─build
+│  ├─jest-environment-jsdom-fourteen
+│  │  ├─lib
+│  │  └─node_modules
+│  │      ├─jsdom
+│  │      │  └─lib
+│  │      │      └─jsdom
+│  │      │          ├─browser
+│  │      │          │  ├─parser
+│  │      │          │  └─resources
+│  │      │          ├─level2
+│  │      │          ├─level3
+│  │      │          └─living
+│  │      │              ├─aborting
+│  │      │              ├─attributes
+│  │      │              ├─constraint-validation
+│  │      │              ├─domparsing
+│  │      │              ├─events
+│  │      │              ├─file-api
+│  │      │              ├─generated
+│  │      │              ├─helpers
+│  │      │              │  └─svg
+│  │      │              ├─hr-time
+│  │      │              ├─mutation-observer
+│  │      │              ├─navigator
+│  │      │              ├─nodes
+│  │      │              ├─svg
+│  │      │              ├─traversal
+│  │      │              ├─websockets
+│  │      │              ├─webstorage
+│  │      │              ├─window
+│  │      │              └─xhr
+│  │      ├─parse5
+│  │      │  └─lib
+│  │      │      ├─common
+│  │      │      ├─extensions
+│  │      │      │  ├─error-reporting
+│  │      │      │  ├─location-info
+│  │      │      │  └─position-tracking
+│  │      │      ├─parser
+│  │      │      ├─serializer
+│  │      │      ├─tokenizer
+│  │      │      ├─tree-adapters
+│  │      │      └─utils
+│  │      ├─whatwg-url
+│  │      │  └─lib
+│  │      └─ws
+│  │          └─lib
+│  ├─jest-environment-node
+│  │  └─build
+│  ├─jest-get-type
+│  │  └─build
+│  ├─jest-haste-map
+│  │  └─build
+│  │      ├─crawlers
+│  │      ├─lib
+│  │      └─persistence
+│  ├─jest-jasmine2
+│  │  └─build
+│  │      └─jasmine
+│  ├─jest-leak-detector
+│  │  └─build
+│  ├─jest-matcher-utils
+│  │  └─build
+│  ├─jest-message-util
+│  │  └─build
+│  ├─jest-mock
+│  │  ├─build
+│  │  └─build-es5
+│  ├─jest-pnp-resolver
+│  ├─jest-regex-util
+│  │  └─build
+│  ├─jest-resolve
+│  │  └─build
+│  ├─jest-resolve-dependencies
+│  │  └─build
+│  ├─jest-runner
+│  │  ├─build
+│  │  └─node_modules
+│  │      └─jest-resolve
+│  │          └─build
+│  ├─jest-runtime
+│  │  ├─bin
+│  │  ├─build
+│  │  │  └─cli
+│  │  └─node_modules
+│  │      └─jest-resolve
+│  │          └─build
+│  ├─jest-serializer
+│  │  └─build
+│  ├─jest-snapshot
+│  │  ├─build
+│  │  └─node_modules
+│  │      ├─.bin
+│  │      ├─jest-resolve
+│  │      │  └─build
+│  │      └─semver
+│  │          └─bin
+│  ├─jest-util
+│  │  ├─build
+│  │  └─node_modules
+│  │      ├─callsites
+│  │      └─source-map
+│  │          ├─dist
+│  │          └─lib
+│  ├─jest-validate
+│  │  └─build
+│  ├─jest-watch-typeahead
+│  │  ├─build
+│  │  │  ├─file_name_plugin
+│  │  │  ├─lib
+│  │  │  ├─test_name_plugin
+│  │  │  ├─test_utils
+│  │  │  └─types
+│  │  └─node_modules
+│  │      ├─ansi-regex
+│  │      └─strip-ansi
+│  ├─jest-watcher
+│  │  └─build
+│  │      └─lib
+│  ├─jest-worker
+│  │  ├─build
+│  │  │  ├─base
+│  │  │  └─workers
+│  │  └─node_modules
+│  │      └─supports-color
+│  ├─js-levenshtein
+│  ├─js-tokens
+│  ├─js-yaml
+│  │  ├─bin
+│  │  ├─dist
+│  │  └─lib
+│  │      └─js-yaml
+│  │          ├─schema
+│  │          └─type
+│  │              └─js
+│  ├─jsbn
+│  ├─jsdom
+│  │  ├─lib
+│  │  │  └─jsdom
+│  │  │      ├─browser
+│  │  │      ├─level2
+│  │  │      ├─level3
+│  │  │      └─living
+│  │  │          ├─aborting
+│  │  │          ├─attributes
+│  │  │          ├─constraint-validation
+│  │  │          ├─domparsing
+│  │  │          ├─events
+│  │  │          ├─file-api
+│  │  │          ├─generated
+│  │  │          ├─helpers
+│  │  │          │  └─svg
+│  │  │          ├─hr-time
+│  │  │          ├─navigator
+│  │  │          ├─nodes
+│  │  │          ├─svg
+│  │  │          ├─traversal
+│  │  │          ├─websockets
+│  │  │          ├─webstorage
+│  │  │          ├─window
+│  │  │          └─xhr
+│  │  └─node_modules
+│  │      ├─.bin
+│  │      └─acorn
+│  │          ├─bin
+│  │          └─dist
+│  ├─jsesc
+│  │  ├─bin
+│  │  └─man
+│  ├─json-parse-better-errors
+│  ├─json-schema
+│  │  ├─draft-00
+│  │  ├─draft-01
+│  │  ├─draft-02
+│  │  ├─draft-03
+│  │  │  └─examples
+│  │  ├─draft-04
+│  │  ├─lib
+│  │  └─test
+│  ├─json-schema-traverse
+│  │  └─spec
+│  │      └─fixtures
+│  ├─json-stable-stringify
+│  │  ├─example
+│  │  └─test
+│  ├─json-stable-stringify-without-jsonify
+│  │  ├─example
+│  │  └─test
+│  ├─json-stringify-safe
+│  │  └─test
+│  ├─json3
+│  │  └─lib
+│  ├─json5
+│  │  ├─dist
+│  │  └─lib
+│  ├─jsonfile
+│  ├─jsonify
+│  │  ├─lib
+│  │  └─test
+│  ├─jsprim
+│  │  └─lib
+│  ├─jsx-ast-utils
+│  │  ├─lib
+│  │  │  └─values
+│  │  │      └─expressions
+│  │  ├─src
+│  │  │  └─values
+│  │  │      └─expressions
+│  │  └─__tests__
+│  │      └─src
+│  ├─killable
+│  ├─kind-of
+│  ├─kleur
+│  ├─last-call-webpack-plugin
+│  │  └─src
+│  ├─lazy-cache
+│  ├─lcid
+│  ├─left-pad
+│  │  └─perf
+│  ├─leven
+│  ├─levn
+│  │  └─lib
+│  ├─load-json-file
+│  ├─loader-fs-cache
+│  │  └─node_modules
+│  │      ├─find-cache-dir
+│  │      ├─find-up
+│  │      ├─path-exists
+│  │      └─pkg-dir
+│  ├─loader-runner
+│  │  └─lib
+│  ├─loader-utils
+│  │  ├─lib
+│  │  └─node_modules
+│  │      ├─.bin
+│  │      └─json5
+│  │          ├─dist
+│  │          └─lib
+│  ├─locate-path
+│  ├─lodash
+│  │  └─fp
+│  ├─lodash.memoize
+│  ├─lodash.sortby
+│  ├─lodash.tail
+│  ├─lodash.template
+│  ├─lodash.templatesettings
+│  ├─lodash.unescape
+│  ├─lodash.uniq
+│  ├─lodash._reinterpolate
+│  ├─loglevel
+│  │  ├─dist
+│  │  ├─lib
+│  │  └─test
+│  │      └─vendor
+│  ├─loose-envify
+│  ├─lower-case
+│  ├─lru-cache
+│  ├─make-dir
+│  │  └─node_modules
+│  │      ├─.bin
+│  │      ├─pify
+│  │      └─semver
+│  │          └─bin
+│  ├─makeerror
+│  │  └─lib
+│  ├─mamacro
+│  ├─map-age-cleaner
+│  │  └─dist
+│  ├─map-cache
+│  ├─map-visit
+│  ├─md5.js
+│  ├─mdn-data
+│  │  ├─api
+│  │  ├─css
+│  │  └─l10n
+│  ├─media-typer
+│  ├─mem
+│  │  └─node_modules
+│  │      └─mimic-fn
+│  ├─memory-fs
+│  │  └─lib
+│  ├─merge-deep
+│  ├─merge-descriptors
+│  ├─merge-stream
+│  ├─merge2
+│  ├─methods
+│  ├─microevent.ts
+│  │  ├─lib
+│  │  ├─src
+│  │  └─test
+│  ├─micromatch
+│  │  ├─lib
+│  │  └─node_modules
+│  │      └─kind-of
+│  ├─miller-rabin
+│  │  ├─bin
+│  │  ├─lib
+│  │  └─test
+│  ├─mime
+│  │  ├─.github
+│  │  ├─src
+│  │  └─types
+│  ├─mime-db
+│  ├─mime-types
+│  ├─mimic-fn
+│  ├─mini-css-extract-plugin
+│  │  └─dist
+│  ├─minimalistic-assert
+│  ├─minimalistic-crypto-utils
+│  │  ├─lib
+│  │  └─test
+│  ├─minimatch
+│  ├─minimist
+│  │  ├─example
+│  │  └─test
+│  ├─mississippi
+│  ├─mixin-deep
+│  │  └─node_modules
+│  │      └─is-extendable
+│  ├─mixin-object
+│  │  └─node_modules
+│  │      └─for-in
+│  ├─mkdirp
+│  │  ├─bin
+│  │  ├─examples
+│  │  ├─node_modules
+│  │  │  └─minimist
+│  │  │      ├─example
+│  │  │      └─test
+│  │  └─test
+│  ├─move-concurrently
+│  ├─ms
+│  ├─multicast-dns
+│  ├─multicast-dns-service-types
+│  ├─mute-stream
+│  │  ├─.nyc_output
+│  │  ├─coverage
+│  │  │  └─lcov-report
+│  │  │      └─__root__
+│  │  └─test
+│  ├─nanomatch
+│  │  ├─lib
+│  │  └─node_modules
+│  │      └─kind-of
+│  ├─natural-compare
+│  ├─negotiator
+│  │  └─lib
+│  ├─neo-async
+│  ├─nice-try
+│  │  └─src
+│  ├─no-case
+│  │  └─vendor
+│  ├─node-forge
+│  │  ├─dist
+│  │  ├─flash
+│  │  │  └─swf
+│  │  └─lib
+│  ├─node-int64
+│  ├─node-libs-browser
+│  │  ├─mock
+│  │  └─node_modules
+│  │      └─punycode
+│  ├─node-modules-regexp
+│  ├─node-notifier
+│  │  ├─lib
+│  │  ├─node_modules
+│  │  │  ├─.bin
+│  │  │  └─semver
+│  │  │      └─bin
+│  │  ├─notifiers
+│  │  └─vendor
+│  │      ├─mac.noindex
+│  │      │  └─terminal-notifier.app
+│  │      │      └─Contents
+│  │      │          ├─MacOS
+│  │      │          └─Resources
+│  │      │              └─en.lproj
+│  │      ├─notifu
+│  │      └─snoreToast
+│  ├─node-releases
+│  │  ├─.idea
+│  │  │  └─inspectionProfiles
+│  │  ├─data
+│  │  │  ├─processed
+│  │  │  ├─raw
+│  │  │  └─release-schedule
+│  │  └─node_modules
+│  │      ├─.bin
+│  │      └─semver
+│  │          └─bin
+│  ├─normalize-package-data
+│  │  ├─lib
+│  │  └─node_modules
+│  │      ├─.bin
+│  │      └─semver
+│  │          └─bin
+│  ├─normalize-path
+│  ├─normalize-range
+│  ├─normalize-url
+│  ├─npm-run-path
+│  ├─nth-check
+│  ├─num2fraction
+│  ├─number-is-nan
+│  ├─nwsapi
+│  │  ├─dist
+│  │  └─src
+│  │      └─modules
+│  ├─oauth-sign
+│  ├─object-assign
+│  ├─object-copy
+│  │  └─node_modules
+│  │      └─define-property
+│  ├─object-hash
+│  │  ├─dist
+│  │  └─test
+│  ├─object-keys
+│  │  └─test
+│  ├─object-visit
+│  ├─object.assign
+│  │  ├─dist
+│  │  └─test
+│  ├─object.fromentries
+│  │  └─test
+│  ├─object.getownpropertydescriptors
+│  │  └─test
+│  ├─object.pick
+│  ├─object.values
+│  │  └─test
+│  ├─obuf
+│  │  └─test
+│  ├─on-finished
+│  ├─on-headers
+│  ├─once
+│  ├─onetime
+│  ├─opn
+│  ├─optimist
+│  │  ├─example
+│  │  ├─node_modules
+│  │  │  ├─minimist
+│  │  │  │  ├─example
+│  │  │  │  └─test
+│  │  │  └─wordwrap
+│  │  │      ├─example
+│  │  │      └─test
+│  │  └─test
+│  │      └─_
+│  ├─optimize-css-assets-webpack-plugin
+│  │  ├─src
+│  │  └─test
+│  │      ├─cases
+│  │      │  ├─assetNameRegExp-no-source
+│  │      │  │  └─expected
+│  │      │  ├─duplicate-css-exists-without-plugin
+│  │      │  │  └─expected
+│  │      │  ├─only-assetNameRegExp-processed
+│  │      │  │  └─expected
+│  │      │  └─removes-duplicate-css
+│  │      │      └─expected
+│  │      ├─util
+│  │      └─__snapshots__
+│  ├─optionator
+│  │  └─lib
+│  ├─original
+│  ├─os-browserify
+│  ├─os-locale
+│  ├─os-tmpdir
+│  ├─p-defer
+│  ├─p-each-series
+│  ├─p-finally
+│  ├─p-is-promise
+│  ├─p-limit
+│  ├─p-locate
+│  ├─p-map
+│  ├─p-reduce
+│  ├─p-try
+│  ├─pako
+│  │  ├─dist
+│  │  └─lib
+│  │      ├─utils
+│  │      └─zlib
+│  ├─parallel-transform
+│  ├─param-case
+│  ├─parent-module
+│  │  └─node_modules
+│  │      └─callsites
+│  ├─parse-asn1
+│  │  └─test
+│  ├─parse-json
+│  ├─parse5
+│  │  └─lib
+│  │      ├─common
+│  │      ├─extensions
+│  │      │  ├─location_info
+│  │      │  └─position_tracking
+│  │      ├─parser
+│  │      ├─sax
+│  │      ├─serializer
+│  │      ├─tokenizer
+│  │      ├─tree_adapters
+│  │      └─utils
+│  ├─parseurl
+│  ├─pascalcase
+│  ├─path-browserify
+│  │  └─test
+│  ├─path-dirname
+│  ├─path-exists
+│  ├─path-is-absolute
+│  ├─path-is-inside
+│  │  └─lib
+│  ├─path-key
+│  ├─path-parse
+│  ├─path-to-regexp
+│  ├─path-type
+│  ├─pbkdf2
+│  │  └─lib
+│  ├─performance-now
+│  │  ├─lib
+│  │  ├─src
+│  │  └─test
+│  │      └─scripts
+│  ├─pify
+│  ├─pinkie
+│  ├─pinkie-promise
+│  ├─pirates
+│  │  └─lib
+│  ├─pkg-dir
+│  ├─pkg-up
+│  │  └─node_modules
+│  │      ├─find-up
+│  │      ├─locate-path
+│  │      ├─p-limit
+│  │      ├─p-locate
+│  │      └─p-try
+│  ├─pn
+│  │  ├─scripts
+│  │  └─test
+│  ├─pnp-webpack-plugin
+│  │  └─fixtures
+│  ├─portfinder
+│  │  ├─lib
+│  │  └─node_modules
+│  │      ├─debug
+│  │      │  └─src
+│  │      └─ms
+│  ├─posix-character-classes
+│  ├─postcss
+│  │  ├─docs
+│  │  │  └─guidelines
+│  │  ├─lib
+│  │  └─node_modules
+│  │      ├─source-map
+│  │      │  ├─dist
+│  │      │  └─lib
+│  │      └─supports-color
+│  ├─postcss-attribute-case-insensitive
+│  │  ├─dist
+│  │  ├─node_modules
+│  │  │  ├─.bin
+│  │  │  ├─cssesc
+│  │  │  │  ├─bin
+│  │  │  │  └─man
+│  │  │  └─postcss-selector-parser
+│  │  │      └─dist
+│  │  │          ├─selectors
+│  │  │          └─util
+│  │  ├─src
+│  │  └─test
+│  ├─postcss-browser-comments
+│  ├─postcss-calc
+│  │  ├─dist
+│  │  │  └─lib
+│  │  └─node_modules
+│  │      ├─.bin
+│  │      ├─cssesc
+│  │      │  ├─bin
+│  │      │  └─man
+│  │      └─postcss-selector-parser
+│  │          └─dist
+│  │              ├─selectors
+│  │              └─util
+│  ├─postcss-color-functional-notation
+│  ├─postcss-color-gray
+│  ├─postcss-color-hex-alpha
+│  ├─postcss-color-mod-function
+│  ├─postcss-color-rebeccapurple
+│  ├─postcss-colormin
+│  │  └─dist
+│  │      └─lib
+│  ├─postcss-convert-values
+│  │  └─dist
+│  │      └─lib
+│  ├─postcss-custom-media
+│  ├─postcss-custom-properties
+│  ├─postcss-custom-selectors
+│  │  └─node_modules
+│  │      ├─.bin
+│  │      ├─cssesc
+│  │      │  ├─bin
+│  │      │  └─man
+│  │      └─postcss-selector-parser
+│  │          └─dist
+│  │              ├─selectors
+│  │              └─util
+│  ├─postcss-dir-pseudo-class
+│  │  └─node_modules
+│  │      ├─.bin
+│  │      ├─cssesc
+│  │      │  ├─bin
+│  │      │  └─man
+│  │      └─postcss-selector-parser
+│  │          └─dist
+│  │              ├─selectors
+│  │              └─util
+│  ├─postcss-discard-comments
+│  │  └─dist
+│  │      └─lib
+│  ├─postcss-discard-duplicates
+│  │  └─dist
+│  ├─postcss-discard-empty
+│  │  └─dist
+│  ├─postcss-discard-overridden
+│  │  ├─dist
+│  │  └─src
+│  │      └─__tests__
+│  │          └─fixtures
+│  ├─postcss-double-position-gradients
+│  ├─postcss-env-function
+│  ├─postcss-flexbugs-fixes
+│  │  └─bugs
+│  ├─postcss-focus-visible
+│  ├─postcss-focus-within
+│  ├─postcss-font-variant
+│  ├─postcss-gap-properties
+│  ├─postcss-image-set-function
+│  ├─postcss-initial
+│  │  ├─.vscode
+│  │  └─lib
+│  ├─postcss-lab-function
+│  ├─postcss-load-config
+│  │  └─src
+│  ├─postcss-loader
+│  │  └─src
+│  ├─postcss-logical
+│  ├─postcss-media-minmax
+│  ├─postcss-merge-longhand
+│  │  └─dist
+│  │      └─lib
+│  │          └─decl
+│  ├─postcss-merge-rules
+│  │  ├─dist
+│  │  │  └─lib
+│  │  └─node_modules
+│  │      └─postcss-selector-parser
+│  │          └─dist
+│  │              └─selectors
+│  ├─postcss-minify-font-values
+│  │  └─dist
+│  │      └─lib
+│  ├─postcss-minify-gradients
+│  │  └─dist
+│  ├─postcss-minify-params
+│  │  └─dist
+│  ├─postcss-minify-selectors
+│  │  ├─dist
+│  │  │  └─lib
+│  │  └─node_modules
+│  │      └─postcss-selector-parser
+│  │          └─dist
+│  │              └─selectors
+│  ├─postcss-modules-extract-imports
+│  │  └─src
+│  ├─postcss-modules-local-by-default
+│  ├─postcss-modules-scope
+│  │  └─src
+│  ├─postcss-modules-values
+│  │  └─src
+│  ├─postcss-nesting
+│  ├─postcss-normalize
+│  ├─postcss-normalize-charset
+│  │  └─dist
+│  ├─postcss-normalize-display-values
+│  │  └─dist
+│  │      └─lib
+│  ├─postcss-normalize-positions
+│  │  └─dist
+│  ├─postcss-normalize-repeat-style
+│  │  └─dist
+│  │      └─lib
+│  ├─postcss-normalize-string
+│  │  └─dist
+│  ├─postcss-normalize-timing-functions
+│  │  └─dist
+│  │      └─lib
+│  ├─postcss-normalize-unicode
+│  │  └─dist
+│  ├─postcss-normalize-url
+│  │  └─dist
+│  ├─postcss-normalize-whitespace
+│  │  └─dist
+│  ├─postcss-ordered-values
+│  │  └─dist
+│  │      ├─lib
+│  │      └─rules
+│  ├─postcss-overflow-shorthand
+│  ├─postcss-page-break
+│  ├─postcss-place
+│  ├─postcss-preset-env
+│  ├─postcss-pseudo-class-any-link
+│  │  └─node_modules
+│  │      ├─.bin
+│  │      ├─cssesc
+│  │      │  ├─bin
+│  │      │  └─man
+│  │      └─postcss-selector-parser
+│  │          └─dist
+│  │              ├─selectors
+│  │              └─util
+│  ├─postcss-reduce-initial
+│  │  ├─data
+│  │  └─dist
+│  ├─postcss-reduce-transforms
+│  │  └─dist
+│  ├─postcss-replace-overflow-wrap
+│  ├─postcss-safe-parser
+│  │  └─lib
+│  ├─postcss-selector-matches
+│  │  └─dist
+│  ├─postcss-selector-not
+│  │  └─dist
+│  ├─postcss-selector-parser
+│  │  └─dist
+│  │      ├─selectors
+│  │      ├─util
+│  │      └─__tests__
+│  │          └─util
+│  ├─postcss-svgo
+│  │  └─dist
+│  │      └─lib
+│  ├─postcss-unique-selectors
+│  │  └─dist
+│  ├─postcss-value-parser
+│  │  └─lib
+│  ├─postcss-values-parser
+│  │  ├─.github
+│  │  ├─lib
+│  │  │  └─errors
+│  │  └─old-lib
+│  ├─prelude-ls
+│  │  └─lib
+│  ├─pretty-bytes
+│  ├─pretty-error
+│  │  ├─lib
+│  │  ├─src
+│  │  └─test
+│  ├─pretty-format
+│  │  ├─build
+│  │  │  └─plugins
+│  │  │      └─lib
+│  │  ├─build-es5
+│  │  ├─node_modules
+│  │  │  └─ansi-regex
+│  │  └─perf
+│  ├─private
+│  ├─process
+│  ├─process-nextick-args
+│  ├─progress
+│  │  └─lib
+│  ├─promise
+│  │  ├─domains
+│  │  ├─lib
+│  │  ├─setimmediate
+│  │  └─src
+│  ├─promise-inflight
+│  ├─prompts
+│  │  ├─dist
+│  │  │  ├─dateparts
+│  │  │  ├─elements
+│  │  │  └─util
+│  │  └─lib
+│  │      ├─dateparts
+│  │      ├─elements
+│  │      └─util
+│  ├─prop-types
+│  │  └─lib
+│  ├─proxy-addr
+│  ├─prr
+│  ├─psl
+│  │  ├─data
+│  │  └─dist
+│  ├─public-encrypt
+│  │  └─test
+│  ├─pump
+│  ├─pumpify
+│  │  └─node_modules
+│  │      └─pump
+│  ├─punycode
+│  ├─q
+│  ├─qs
+│  │  ├─dist
+│  │  ├─lib
+│  │  └─test
+│  ├─querystring
+│  │  └─test
+│  ├─querystring-es3
+│  │  └─test
+│  ├─querystringify
+│  ├─raf
+│  ├─randombytes
+│  ├─randomfill
+│  ├─range-parser
+│  ├─raw-body
+│  │  └─node_modules
+│  │      └─bytes
+│  ├─react
+│  │  ├─cjs
+│  │  └─umd
+│  ├─react-app-polyfill
+│  │  └─node_modules
+│  │      └─regenerator-runtime
+│  ├─react-dev-utils
+│  │  └─node_modules
+│  │      ├─.bin
+│  │      ├─@babel
+│  │      │  └─code-frame
+│  │      │      └─lib
+│  │      ├─ansi-regex
+│  │      ├─browserslist
+│  │      ├─inquirer
+│  │      │  └─lib
+│  │      │      ├─objects
+│  │      │      ├─prompts
+│  │      │      ├─ui
+│  │      │      └─utils
+│  │      └─strip-ansi
+│  ├─react-dom
+│  │  ├─cjs
+│  │  └─umd
+│  ├─react-error-overlay
+│  │  └─lib
+│  ├─react-is
+│  │  ├─cjs
+│  │  └─umd
+│  ├─react-scripts
+│  │  ├─bin
+│  │  ├─config
+│  │  │  └─jest
+│  │  ├─lib
+│  │  ├─scripts
+│  │  │  └─utils
+│  │  ├─template
+│  │  │  ├─public
+│  │  │  └─src
+│  │  └─template-typescript
+│  │      ├─public
+│  │      └─src
+│  ├─read-pkg
+│  ├─read-pkg-up
+│  ├─readable-stream
+│  │  ├─doc
+│  │  │  └─wg-meetings
+│  │  └─lib
+│  │      └─internal
+│  │          └─streams
+│  ├─readdirp
+│  ├─realpath-native
+│  ├─recursive-readdir
+│  │  └─test
+│  │      ├─testdir
+│  │      │  ├─a
+│  │      │  └─b
+│  │      │      └─b
+│  │      ├─testdirBeta
+│  │      └─testsymlinks
+│  │          └─linkeddir
+│  ├─regenerate
+│  ├─regenerate-unicode-properties
+│  │  ├─Binary_Property
+│  │  ├─General_Category
+│  │  ├─Script
+│  │  └─Script_Extensions
+│  ├─regenerator-runtime
+│  ├─regenerator-transform
+│  │  ├─lib
+│  │  └─src
+│  ├─regex-not
+│  ├─regexp-tree
+│  │  ├─bin
+│  │  └─dist
+│  │      ├─bin
+│  │      ├─compat-transpiler
+│  │      │  ├─runtime
+│  │      │  └─transforms
+│  │      ├─generator
+│  │      ├─interpreter
+│  │      │  └─finite-automaton
+│  │      │      ├─dfa
+│  │      │      ├─nfa
+│  │      │      └─transforms
+│  │      ├─optimizer
+│  │      │  └─transforms
+│  │      ├─parser
+│  │      │  ├─generated
+│  │      │  └─unicode
+│  │      ├─transform
+│  │      ├─traverse
+│  │      └─utils
+│  ├─regexpp
+│  ├─regexpu-core
+│  │  └─data
+│  ├─regjsgen
+│  ├─regjsparser
+│  │  ├─bin
+│  │  └─node_modules
+│  │      ├─.bin
+│  │      └─jsesc
+│  │          ├─bin
+│  │          └─man
+│  ├─relateurl
+│  │  └─lib
+│  │      ├─parse
+│  │      ├─relate
+│  │      └─util
+│  ├─remove-trailing-separator
+│  ├─renderkid
+│  │  ├─docs
+│  │  │  └─images
+│  │  ├─lib
+│  │  │  ├─ansiPainter
+│  │  │  ├─layout
+│  │  │  │  └─block
+│  │  │  │      ├─blockAppendor
+│  │  │  │      ├─blockPrependor
+│  │  │  │      ├─lineAppendor
+│  │  │  │      ├─linePrependor
+│  │  │  │      └─lineWrapper
+│  │  │  └─renderKid
+│  │  │      ├─styleApplier
+│  │  │      └─styles
+│  │  │          └─rule
+│  │  │              └─declarationBlock
+│  │  ├─node_modules
+│  │  │  ├─ansi-regex
+│  │  │  ├─css-select
+│  │  │  │  └─lib
+│  │  │  ├─domutils
+│  │  │  │  ├─lib
+│  │  │  │  └─test
+│  │  │  │      └─tests
+│  │  │  └─strip-ansi
+│  │  └─test
+│  │      ├─layout
+│  │      └─renderKid
+│  │          └─styles
+│  ├─repeat-element
+│  ├─repeat-string
+│  ├─request
+│  │  ├─lib
+│  │  └─node_modules
+│  │      ├─punycode
+│  │      └─tough-cookie
+│  │          └─lib
+│  ├─request-promise-core
+│  │  ├─configure
+│  │  └─lib
+│  ├─request-promise-native
+│  │  └─lib
+│  ├─require-directory
+│  ├─require-main-filename
+│  ├─requireindex
+│  │  └─test
+│  │      └─lib
+│  │          ├─.also_private
+│  │          └─bar
+│  │              └─fed
+│  ├─requires-port
+│  ├─resolve
+│  │  ├─example
+│  │  ├─lib
+│  │  └─test
+│  │      ├─dotdot
+│  │      │  └─abc
+│  │      ├─module_dir
+│  │      │  ├─xmodules
+│  │      │  │  └─aaa
+│  │      │  ├─ymodules
+│  │      │  │  └─aaa
+│  │      │  └─zmodules
+│  │      │      └─bbb
+│  │      ├─node_path
+│  │      │  ├─x
+│  │      │  │  ├─aaa
+│  │      │  │  └─ccc
+│  │      │  └─y
+│  │      │      ├─bbb
+│  │      │      └─ccc
+│  │      ├─pathfilter
+│  │      │  └─deep_ref
+│  │      ├─precedence
+│  │      │  ├─aaa
+│  │      │  └─bbb
+│  │      └─resolver
+│  │          ├─baz
+│  │          ├─browser_field
+│  │          ├─dot_main
+│  │          ├─dot_slash_main
+│  │          ├─incorrect_main
+│  │          ├─invalid_main
+│  │          ├─multirepo
+│  │          │  └─packages
+│  │          │      ├─package-a
+│  │          │      └─package-b
+│  │          ├─other_path
+│  │          │  └─lib
+│  │          ├─quux
+│  │          │  └─foo
+│  │          ├─same_names
+│  │          │  └─foo
+│  │          ├─symlinked
+│  │          │  └─_
+│  │          │      ├─node_modules
+│  │          │      └─symlink_target
+│  │          └─without_basedir
+│  ├─resolve-cwd
+│  ├─resolve-from
+│  ├─resolve-url
+│  │  └─test
+│  ├─restore-cursor
+│  ├─ret
+│  │  └─lib
+│  ├─rgb-regex
+│  │  └─test
+│  ├─rgba-regex
+│  │  └─test
+│  ├─rimraf
+│  ├─ripemd160
+│  ├─rsvp
+│  │  ├─dist
+│  │  │  └─es6
+│  │  └─lib
+│  │      └─rsvp
+│  │          └─promise
+│  ├─run-async
+│  ├─run-queue
+│  ├─rxjs
+│  │  ├─add
+│  │  │  ├─observable
+│  │  │  │  └─dom
+│  │  │  └─operator
+│  │  ├─ajax
+│  │  ├─bundles
+│  │  ├─fetch
+│  │  ├─internal
+│  │  │  ├─observable
+│  │  │  │  └─dom
+│  │  │  ├─operators
+│  │  │  ├─scheduled
+│  │  │  ├─scheduler
+│  │  │  ├─symbol
+│  │  │  ├─testing
+│  │  │  └─util
+│  │  ├─internal-compatibility
+│  │  ├─migrations
+│  │  │  └─update-6_0_0
+│  │  ├─observable
+│  │  │  └─dom
+│  │  ├─operator
+│  │  ├─operators
+│  │  ├─scheduler
+│  │  ├─src
+│  │  │  ├─add
+│  │  │  │  ├─observable
+│  │  │  │  │  └─dom
+│  │  │  │  └─operator
+│  │  │  ├─ajax
+│  │  │  ├─fetch
+│  │  │  ├─internal
+│  │  │  │  ├─observable
+│  │  │  │  │  └─dom
+│  │  │  │  ├─operators
+│  │  │  │  ├─scheduled
+│  │  │  │  ├─scheduler
+│  │  │  │  ├─symbol
+│  │  │  │  ├─testing
+│  │  │  │  └─util
+│  │  │  ├─internal-compatibility
+│  │  │  ├─observable
+│  │  │  │  └─dom
+│  │  │  ├─operator
+│  │  │  ├─operators
+│  │  │  ├─scheduler
+│  │  │  ├─symbol
+│  │  │  ├─testing
+│  │  │  ├─util
+│  │  │  └─webSocket
+│  │  ├─symbol
+│  │  ├─testing
+│  │  ├─util
+│  │  ├─webSocket
+│  │  ├─_esm2015
+│  │  │  ├─ajax
+│  │  │  ├─fetch
+│  │  │  ├─internal
+│  │  │  │  ├─observable
+│  │  │  │  │  └─dom
+│  │  │  │  ├─operators
+│  │  │  │  ├─scheduled
+│  │  │  │  ├─scheduler
+│  │  │  │  ├─symbol
+│  │  │  │  ├─testing
+│  │  │  │  └─util
+│  │  │  ├─internal-compatibility
+│  │  │  ├─operators
+│  │  │  ├─testing
+│  │  │  └─webSocket
+│  │  └─_esm5
+│  │      ├─ajax
+│  │      ├─fetch
+│  │      ├─internal
+│  │      │  ├─observable
+│  │      │  │  └─dom
+│  │      │  ├─operators
+│  │      │  ├─scheduled
+│  │      │  ├─scheduler
+│  │      │  ├─symbol
+│  │      │  ├─testing
+│  │      │  └─util
+│  │      ├─internal-compatibility
+│  │      ├─operators
+│  │      ├─testing
+│  │      └─webSocket
+│  ├─safe-buffer
+│  ├─safe-regex
+│  │  ├─example
+│  │  └─test
+│  ├─safer-buffer
+│  ├─sane
+│  │  └─src
+│  │      └─utils
+│  ├─sass-loader
+│  │  ├─lib
+│  │  └─node_modules
+│  │      ├─.bin
+│  │      ├─clone-deep
+│  │      ├─for-own
+│  │      ├─kind-of
+│  │      ├─semver
+│  │      │  └─bin
+│  │      └─shallow-clone
+│  │          └─node_modules
+│  │              └─kind-of
+│  ├─sax
+│  │  └─lib
+│  ├─saxes
+│  │  └─lib
+│  ├─scheduler
+│  │  ├─cjs
+│  │  └─umd
+│  ├─schema-utils
+│  │  └─src
+│  ├─select-hose
+│  │  ├─lib
+│  │  └─test
+│  ├─selfsigned
+│  │  └─test
+│  ├─semver
+│  │  └─bin
+│  ├─send
+│  │  └─node_modules
+│  │      ├─.bin
+│  │      ├─debug
+│  │      │  ├─node_modules
+│  │      │  │  └─ms
+│  │      │  └─src
+│  │      ├─mime
+│  │      │  └─src
+│  │      └─ms
+│  ├─serialize-javascript
+│  ├─serve-index
+│  │  ├─node_modules
+│  │  │  ├─debug
+│  │  │  │  └─src
+│  │  │  ├─http-errors
+│  │  │  ├─inherits
+│  │  │  ├─ms
+│  │  │  └─setprototypeof
+│  │  └─public
+│  │      └─icons
+│  ├─serve-static
+│  ├─set-blocking
+│  ├─set-value
+│  │  └─node_modules
+│  │      └─extend-shallow
+│  ├─setimmediate
+│  ├─setprototypeof
+│  │  └─test
+│  ├─sha.js
+│  │  └─test
+│  ├─shallow-clone
+│  │  └─node_modules
+│  │      ├─kind-of
+│  │      └─lazy-cache
+│  ├─shebang-command
+│  ├─shebang-regex
+│  ├─shell-quote
+│  │  ├─example
+│  │  └─test
+│  ├─shellwords
+│  │  └─lib
+│  ├─signal-exit
+│  ├─simple-swizzle
+│  │  └─node_modules
+│  │      └─is-arrayish
+│  ├─sisteransi
+│  │  └─src
+│  ├─slash
+│  ├─slice-ansi
+│  ├─snapdragon
+│  │  ├─lib
+│  │  └─node_modules
+│  │      ├─debug
+│  │      │  └─src
+│  │      ├─define-property
+│  │      ├─extend-shallow
+│  │      └─ms
+│  ├─snapdragon-node
+│  │  └─node_modules
+│  │      ├─define-property
+│  │      ├─is-accessor-descriptor
+│  │      ├─is-data-descriptor
+│  │      ├─is-descriptor
+│  │      └─kind-of
+│  ├─snapdragon-util
+│  ├─sockjs
+│  │  ├─examples
+│  │  │  ├─echo
+│  │  │  ├─express
+│  │  │  ├─express-3.x
+│  │  │  ├─hapi
+│  │  │  │  └─html
+│  │  │  ├─koa
+│  │  │  └─multiplex
+│  │  ├─lib
+│  │  └─node_modules
+│  │      └─faye-websocket
+│  │          ├─examples
+│  │          └─lib
+│  │              └─faye
+│  │                  └─websocket
+│  │                      └─api
+│  ├─sockjs-client
+│  │  ├─dist
+│  │  ├─lib
+│  │  │  ├─event
+│  │  │  ├─transport
+│  │  │  │  ├─browser
+│  │  │  │  ├─driver
+│  │  │  │  ├─lib
+│  │  │  │  ├─receiver
+│  │  │  │  └─sender
+│  │  │  └─utils
+│  │  └─node_modules
+│  │      └─debug
+│  │          ├─dist
+│  │          └─src
+│  ├─source-list-map
+│  │  └─lib
+│  ├─source-map
+│  │  ├─dist
+│  │  └─lib
+│  ├─source-map-resolve
+│  │  ├─lib
+│  │  └─test
+│  ├─source-map-support
+│  │  └─node_modules
+│  │      └─source-map
+│  │          ├─dist
+│  │          └─lib
+│  ├─source-map-url
+│  │  └─test
+│  ├─spdx-correct
+│  ├─spdx-exceptions
+│  ├─spdx-expression-parse
+│  ├─spdx-license-ids
+│  ├─spdy
+│  │  ├─lib
+│  │  │  └─spdy
+│  │  └─test
+│  ├─spdy-transport
+│  │  ├─lib
+│  │  │  └─spdy-transport
+│  │  │      └─protocol
+│  │  │          ├─base
+│  │  │          ├─http2
+│  │  │          └─spdy
+│  │  └─node_modules
+│  │      └─readable-stream
+│  │          └─lib
+│  │              └─internal
+│  │                  └─streams
+│  ├─split-string
+│  ├─sprintf-js
+│  │  ├─demo
+│  │  ├─dist
+│  │  ├─src
+│  │  └─test
+│  ├─sshpk
+│  │  ├─bin
+│  │  ├─lib
+│  │  │  └─formats
+│  │  └─man
+│  │      └─man1
+│  ├─ssri
+│  ├─stable
+│  ├─stack-utils
+│  ├─static-extend
+│  │  └─node_modules
+│  │      └─define-property
+│  ├─statuses
+│  ├─stealthy-require
+│  │  └─lib
+│  ├─stream-browserify
+│  │  └─test
+│  ├─stream-each
+│  ├─stream-http
+│  │  ├─lib
+│  │  └─test
+│  │      ├─browser
+│  │      │  └─lib
+│  │      ├─node
+│  │      └─server
+│  │          └─static
+│  ├─stream-shift
+│  ├─string-length
+│  ├─string-width
+│  ├─stringify-object
+│  ├─string_decoder
+│  │  └─lib
+│  ├─strip-ansi
+│  ├─strip-bom
+│  ├─strip-comments
+│  ├─strip-eof
+│  ├─strip-json-comments
+│  ├─style-loader
+│  │  └─lib
+│  ├─stylehacks
+│  │  ├─dist
+│  │  │  ├─dictionary
+│  │  │  └─plugins
+│  │  └─node_modules
+│  │      └─postcss-selector-parser
+│  │          └─dist
+│  │              └─selectors
+│  ├─supports-color
+│  ├─svg-parser
+│  │  └─dist
+│  ├─svgo
+│  │  ├─bin
+│  │  ├─lib
+│  │  │  └─svgo
+│  │  └─plugins
+│  ├─symbol-tree
+│  │  └─lib
+│  ├─table
+│  │  ├─dist
+│  │  │  └─schemas
+│  │  └─node_modules
+│  │      ├─ansi-regex
+│  │      ├─string-width
+│  │      └─strip-ansi
+│  ├─tapable
+│  │  └─lib
+│  ├─terser
+│  │  ├─bin
+│  │  ├─dist
+│  │  ├─node_modules
+│  │  │  └─source-map
+│  │  │      ├─dist
+│  │  │      └─lib
+│  │  └─tools
+│  ├─terser-webpack-plugin
+│  │  ├─dist
+│  │  └─node_modules
+│  │      └─source-map
+│  │          ├─dist
+│  │          └─lib
+│  ├─test-exclude
+│  ├─text-table
+│  │  ├─example
+│  │  └─test
+│  ├─throat
+│  ├─through
+│  │  └─test
+│  ├─through2
+│  ├─thunky
+│  ├─timers-browserify
+│  ├─timsort
+│  │  ├─build
+│  │  └─src
+│  ├─tmp
+│  │  └─lib
+│  ├─tmpl
+│  │  └─lib
+│  ├─to-arraybuffer
+│  ├─to-fast-properties
+│  ├─to-object-path
+│  ├─to-regex
+│  ├─to-regex-range
+│  ├─toidentifier
+│  ├─tough-cookie
+│  │  └─lib
+│  ├─tr46
+│  │  └─lib
+│  ├─trim-right
+│  ├─ts-pnp
+│  ├─tslib
+│  ├─tsutils
+│  │  ├─typeguard
+│  │  │  ├─2.8
+│  │  │  ├─2.9
+│  │  │  ├─3.0
+│  │  │  ├─3.2
+│  │  │  └─next
+│  │  └─util
+│  ├─tty-browserify
+│  ├─tunnel-agent
+│  ├─tweetnacl
+│  ├─type-check
+│  │  └─lib
+│  ├─type-is
+│  ├─typedarray
+│  │  ├─example
+│  │  └─test
+│  │      └─server
+│  ├─uglify-js
+│  │  ├─bin
+│  │  ├─lib
+│  │  ├─node_modules
+│  │  │  ├─commander
+│  │  │  │  └─typings
+│  │  │  └─source-map
+│  │  │      ├─dist
+│  │  │      └─lib
+│  │  └─tools
+│  ├─unicode-canonical-property-names-ecmascript
+│  ├─unicode-match-property-ecmascript
+│  ├─unicode-match-property-value-ecmascript
+│  │  └─data
+│  ├─unicode-property-aliases-ecmascript
+│  ├─union-value
+│  ├─uniq
+│  │  └─test
+│  ├─uniqs
+│  ├─unique-filename
+│  │  ├─.nyc_output
+│  │  ├─coverage
+│  │  │  └─__root__
+│  │  └─test
+│  ├─unique-slug
+│  │  └─test
+│  ├─universalify
+│  ├─unpipe
+│  ├─unquote
+│  ├─unset-value
+│  │  └─node_modules
+│  │      ├─has-value
+│  │      │  └─node_modules
+│  │      │      └─isobject
+│  │      └─has-values
+│  ├─upath
+│  │  └─build
+│  │      └─code
+│  ├─upper-case
+│  ├─uri-js
+│  │  ├─dist
+│  │  │  ├─es5
+│  │  │  └─esnext
+│  │  │      └─schemes
+│  │  ├─src
+│  │  │  └─schemes
+│  │  └─tests
+│  ├─urix
+│  │  └─test
+│  ├─url
+│  │  └─node_modules
+│  │      └─punycode
+│  ├─url-loader
+│  │  └─dist
+│  │      └─utils
+│  ├─url-parse
+│  │  └─dist
+│  ├─use
+│  ├─util
+│  │  ├─node_modules
+│  │  │  └─inherits
+│  │  └─support
+│  ├─util-deprecate
+│  ├─util.promisify
+│  ├─utila
+│  │  ├─lib
+│  │  └─test
+│  ├─utils-merge
+│  ├─uuid
+│  │  ├─bin
+│  │  └─lib
+│  ├─validate-npm-package-license
+│  ├─vary
+│  ├─vendors
+│  ├─verror
+│  │  └─lib
+│  ├─vm-browserify
+│  │  ├─example
+│  │  │  └─run
+│  │  └─test
+│  ├─w3c-hr-time
+│  │  ├─coverage
+│  │  │  └─hr-time
+│  │  │      └─lib
+│  │  └─lib
+│  ├─w3c-xmlserializer
+│  │  └─lib
+│  ├─walker
+│  │  └─lib
+│  ├─watchpack
+│  │  └─lib
+│  ├─wbuf
+│  │  └─test
+│  ├─webidl-conversions
+│  │  └─lib
+│  ├─webpack
+│  │  ├─bin
+│  │  ├─buildin
+│  │  ├─declarations
+│  │  │  └─plugins
+│  │  │      ├─debug
+│  │  │      └─optimize
+│  │  ├─hot
+│  │  ├─lib
+│  │  │  ├─debug
+│  │  │  ├─dependencies
+│  │  │  ├─node
+│  │  │  ├─optimize
+│  │  │  ├─performance
+│  │  │  ├─util
+│  │  │  ├─wasm
+│  │  │  ├─web
+│  │  │  └─webworker
+│  │  ├─schemas
+│  │  │  └─plugins
+│  │  │      ├─debug
+│  │  │      └─optimize
+│  │  └─web_modules
+│  ├─webpack-dev-middleware
+│  │  └─lib
+│  ├─webpack-dev-server
+│  │  ├─bin
+│  │  ├─client
+│  │  ├─lib
+│  │  │  └─utils
+│  │  ├─node_modules
+│  │  │  ├─.bin
+│  │  │  ├─ansi-regex
+│  │  │  ├─camelcase
+│  │  │  ├─decamelize
+│  │  │  ├─require-main-filename
+│  │  │  ├─semver
+│  │  │  │  └─bin
+│  │  │  ├─strip-ansi
+│  │  │  ├─supports-color
+│  │  │  ├─yargs
+│  │  │  │  ├─lib
+│  │  │  │  └─locales
+│  │  │  └─yargs-parser
+│  │  │      └─lib
+│  │  └─ssl
+│  ├─webpack-log
+│  │  └─src
+│  │      └─loglevel
+│  ├─webpack-manifest-plugin
+│  │  └─lib
+│  ├─webpack-sources
+│  │  ├─lib
+│  │  └─node_modules
+│  │      └─source-map
+│  │          ├─dist
+│  │          └─lib
+│  ├─websocket-driver
+│  │  └─lib
+│  │      └─websocket
+│  │          └─driver
+│  │              └─hybi
+│  ├─websocket-extensions
+│  │  └─lib
+│  │      └─pipeline
+│  ├─whatwg-encoding
+│  │  └─lib
+│  ├─whatwg-fetch
+│  │  └─dist
+│  ├─whatwg-mimetype
+│  │  └─lib
+│  ├─whatwg-url
+│  │  └─lib
+│  ├─which
+│  │  └─bin
+│  ├─which-module
+│  ├─wordwrap
+│  │  ├─example
+│  │  └─test
+│  ├─workbox-background-sync
+│  │  ├─build
+│  │  └─lib
+│  ├─workbox-broadcast-update
+│  │  ├─build
+│  │  └─utils
+│  ├─workbox-build
+│  │  ├─build
+│  │  │  ├─entry-points
+│  │  │  │  └─options
+│  │  │  ├─lib
+│  │  │  └─templates
+│  │  ├─node_modules
+│  │  │  └─fs-extra
+│  │  │      ├─docs
+│  │  │      └─lib
+│  │  │          ├─copy
+│  │  │          ├─copy-sync
+│  │  │          ├─empty
+│  │  │          ├─ensure
+│  │  │          ├─fs
+│  │  │          ├─json
+│  │  │          ├─mkdirs
+│  │  │          ├─move
+│  │  │          ├─move-sync
+│  │  │          ├─output
+│  │  │          ├─path-exists
+│  │  │          ├─remove
+│  │  │          └─util
+│  │  └─src
+│  │      ├─entry-points
+│  │      │  └─options
+│  │      ├─lib
+│  │      └─templates
+│  ├─workbox-cacheable-response
+│  │  └─build
+│  ├─workbox-core
+│  │  ├─build
+│  │  ├─models
+│  │  │  └─messages
+│  │  ├─utils
+│  │  └─_private
+│  ├─workbox-expiration
+│  │  ├─build
+│  │  └─models
+│  ├─workbox-google-analytics
+│  │  ├─build
+│  │  └─utils
+│  ├─workbox-navigation-preload
+│  │  └─build
+│  ├─workbox-precaching
+│  │  ├─build
+│  │  └─utils
+│  ├─workbox-range-requests
+│  │  ├─build
+│  │  └─utils
+│  ├─workbox-routing
+│  │  ├─build
+│  │  └─utils
+│  ├─workbox-strategies
+│  │  ├─build
+│  │  ├─plugins
+│  │  └─utils
+│  ├─workbox-streams
+│  │  ├─build
+│  │  └─utils
+│  ├─workbox-sw
+│  │  ├─build
+│  │  └─controllers
+│  ├─workbox-webpack-plugin
+│  │  └─build
+│  │      └─lib
+│  ├─workbox-window
+│  │  ├─build
+│  │  └─utils
+│  ├─worker-farm
+│  │  ├─examples
+│  │  │  ├─basic
+│  │  │  └─pi
+│  │  ├─lib
+│  │  │  └─child
+│  │  └─tests
+│  ├─worker-rpc
+│  │  ├─lib
+│  │  ├─src
+│  │  └─test
+│  ├─wrap-ansi
+│  │  └─node_modules
+│  │      ├─ansi-regex
+│  │      ├─is-fullwidth-code-point
+│  │      ├─string-width
+│  │      └─strip-ansi
+│  ├─wrappy
+│  ├─write
+│  ├─write-file-atomic
+│  ├─ws
+│  │  └─lib
+│  ├─xml-name-validator
+│  │  └─lib
+│  ├─xmlchars
+│  │  ├─xml
+│  │  │  ├─1.0
+│  │  │  └─1.1
+│  │  └─xmlns
+│  │      └─1.0
+│  ├─xregexp
+│  │  ├─lib
+│  │  │  └─addons
+│  │  └─src
+│  │      └─addons
+│  ├─xtend
+│  ├─y18n
+│  ├─yallist
+│  ├─yargs
+│  │  ├─lib
+│  │  ├─locales
+│  │  └─node_modules
+│  │      └─require-main-filename
+│  └─yargs-parser
+│      └─lib
+├─public
+└─src
