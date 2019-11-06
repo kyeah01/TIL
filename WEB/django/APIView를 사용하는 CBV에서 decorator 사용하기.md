@@ -62,5 +62,28 @@
   	return Response(status=status.HTTP_200_OK)
   ```
 
+- 다른방식도 하나 찾았다!
+
+  ```python
+  class SomeThing(APIView):
+      
+      def has_permission(self, request):
+          if request.method in SAFE_METHODS:
+              return True
+          return request.user == admin
+        	# 처음에 obj를 받아서, obj소유자를 확인하는 걸로 변경해도 된다.
+          # return obj.owner == request.user 같은식으로.
+  
+      def get(self, request):
+          if not self.has_permission(request):
+              return Response(
+                  data = {
+                      "detail" : "자격 인증데이터(authentication credentials)가 제공되지 않았습니다."
+                  }, 
+                  status=status.HTTP_401_UNAUTHORIZED)
+  
+          return Response(status=status.HTTP_200_OK)
+  ```
+
   
 
