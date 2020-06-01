@@ -103,7 +103,7 @@ def patch(self, request, site_pk):
 #### PUT : 전체수정
 
 ```python
-def patch(self, request, site_pk):
+def put(self, request, site_pk):
     apiSite = get_object_or_404(APISite, pk=site_pk)
     serializer = APISiteDetailSerializer(instance=apiSite, data=request.data)
     if serializer.is_valid():

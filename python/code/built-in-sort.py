@@ -1,7 +1,2 @@
-import os
-import inspect
-
-listA = [1,2,3]
-listA.sort()
-
-print(inspect.getfile(list))
+listA = [(2,'B'), (2, 'A'), (1,'A')]
+print(sorted(listA, key=lambda x: x[0]))
